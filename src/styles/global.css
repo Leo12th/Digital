@@ -30,11 +30,65 @@ a:hover {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .section {
   padding: 4rem 0;
+}
+
+.section-hero-bg {
+  position: relative;
+  z-index: 50;
+  background: #0a0a0f;
+  margin-top: -12rem;
+}
+
+.section-hero-bg .container {
+  position: relative;
+  z-index: 10;
+}
+
+.container-services {
+  max-width: 900px;
+}
+
+.section-hero-bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(230, 57, 80, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(230, 57, 80, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  animation: sectionGridPulse 4s ease-in-out infinite;
+}
+
+@keyframes sectionGridPulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Fundo escuro + grid para páginas internas (consistência cyberpunk) */
+.section-page-bg {
+  position: relative;
+  background: #0a0a0f;
+}
+
+.section-page-bg .container {
+  position: relative;
+  z-index: 1;
+}
+
+.section-page-bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(230, 57, 80, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(230, 57, 80, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  animation: sectionGridPulse 4s ease-in-out infinite;
 }
 
 .section-title {
@@ -48,6 +102,39 @@ a:hover {
   font-size: 1.1rem;
   color: var(--text-secondary);
   margin-bottom: 2rem;
+}
+
+.section-hero-bg .section-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.35rem;
+}
+
+.section-hero-bg .section-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Hero de página interna (gradiente + grid) */
+.page-hero {
+  position: relative;
+  padding: 0.5rem 0 1.5rem;
+  background: linear-gradient(135deg, #0a0a0f 0%, #12121a 40%, #0f0f14 100%);
+}
+
+.page-hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(230, 57, 80, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(230, 57, 80, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  animation: sectionGridPulse 4s ease-in-out infinite;
+}
+
+.page-hero .container {
+  position: relative;
+  z-index: 1;
 }
 
 .btn {
@@ -69,6 +156,7 @@ a:hover {
 }
 .btn-primary:hover {
   background: var(--accent-hover);
+  color: white;
   transform: translateY(-1px);
 }
 
@@ -79,4 +167,5 @@ a:hover {
 }
 .btn-outline:hover {
   background: var(--accent-light);
+  color: var(--accent);
 }

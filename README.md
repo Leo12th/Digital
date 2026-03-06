@@ -37,3 +37,13 @@ npm run build
 ## Logo
 
 Coloque o arquivo do logo em `public/logo.svg` ou `public/logo.png` e atualize as referências no código se necessário.
+
+## Imagem Hero (qualidade máxima)
+
+Para a imagem hero ficar nítida em todas as telas (incluindo Retina/4K):
+
+1. **Adicione os arquivos diretamente** na pasta `public/` (arraste pelo Explorer, não cole no chat — colar pode comprimir a imagem).
+2. **Tamanhos recomendados:**
+   - `hero.png` — **1920×1080 px** (mínimo para desktop)
+   - `hero-2x.png` — **3840×2160 px** (para telas Retina/4K)
+3. Mantenha a proporção **16:9**.

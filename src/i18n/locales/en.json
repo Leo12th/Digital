@@ -20,8 +20,9 @@
   },
   "home": {
     "heroTitle": "We are a company of",
-    "heroHighlight": "INTEGRATED SOLUTIONS",
-    "heroSubtitle": "to scale large businesses.",
+    "heroHighlight": "Integrated solutions",
+    "heroSubtitle": "To scale",
+    "heroSubtitle2": "Large businesses",
     "heroDescription": "We create and perfect technologies focused on communication, marketing, commercial and sales promotion in the clothing segment.",
     "cta": "Get in touch",
     "seeServices": "Discover our services"
@@ -143,6 +144,7 @@
   "contact": {
     "title": "Get in Touch",
     "subtitle": "We are ready to help your business grow",
+    "ctaWhatsapp": "Contact us",
     "whatsapp": "WhatsApp",
     "email": "Email",
     "form": {

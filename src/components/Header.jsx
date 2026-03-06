@@ -1,15 +1,11 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { useTheme } from '../hooks/useTheme'
-import { changeLanguage } from '../i18n'
-import { Sun, Moon, Menu, Languages } from 'lucide-react'
+import { Menu } from 'lucide-react'
 
 export function Header() {
-  const { t, i18n } = useTranslation()
-  const { theme, toggleTheme } = useTheme()
+  const { t } = useTranslation()
   const [menuOpen, setMenuOpen] = useState(false)
-  const [langOpen, setLangOpen] = useState(false)
 
   const navLinks = [
     { to: '/', label: t('nav.home') },
@@ -29,32 +25,28 @@ export function Header() {
           <span className="logo-text">DIGITAL</span>
         </Link>
 
-        <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-          {navLinks.map(({ to, label }) => (
-            <Link key={to} to={to} onClick={() => setMenuOpen(false)}>{label}</Link>
-          ))}
-        </nav>
+        <div className="header-nav-fixed">
+          <div className="header-nav-inner">
+          <nav className={`nav nav-pill ${menuOpen ? 'open' : ''}`}>
+            {navLinks.map(({ to, label }) => (
+            <NavLink
+              key={to}
+              to={to}
+              end={to === '/'}
+              onClick={() => setMenuOpen(false)}
+              className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+            >
+              {label}
+            </NavLink>
+            ))}
+          </nav>
 
-        <div className="header-actions">
-          <div className="lang-selector">
-            <button className="lang-btn" onClick={() => setLangOpen(!langOpen)} aria-label={t('common.language')}>
-              <Languages size={18} />
-              <span>{i18n.language?.toUpperCase().slice(0, 2) || 'PT'}</span>
+          <div className="header-actions">
+            <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={t('common.menu')}>
+              <Menu size={24} />
             </button>
-            {langOpen && (
-              <div className="lang-dropdown">
-                <button onClick={() => { changeLanguage('pt'); setLangOpen(false) }}>PT</button>
-                <button onClick={() => { changeLanguage('en'); setLangOpen(false) }}>EN</button>
-                <button onClick={() => { changeLanguage('es'); setLangOpen(false) }}>ES</button>
-              </div>
-            )}
           </div>
-          <button className="theme-toggle" onClick={toggleTheme} aria-label={t('common.toggleTheme')}>
-            {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
-          </button>
-          <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label={t('common.menu')}>
-            <Menu size={24} />
-          </button>
+          </div>
         </div>
       </div>
     </header>

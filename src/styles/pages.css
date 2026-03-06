@@ -18,27 +18,38 @@
 
 .filter-bar {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.25rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
+  padding: 0.25rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(135deg, #1a1a24 0%, #0f0f14 50%, #0a0a0f 100%);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  width: fit-content;
 }
 
 .filter-btn {
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--bg-card);
-  color: var(--text-primary);
+  padding: 0.45rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  background: transparent;
+  color: var(--text-secondary);
   cursor: pointer;
-  font-size: 0.95rem;
-  transition: all 0.2s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
 }
 
-.filter-btn:hover,
+.filter-btn:hover {
+  color: var(--text-primary);
+}
+
 .filter-btn.active {
   background: var(--accent);
   color: white;
-  border-color: var(--accent);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 12px var(--accent-glow);
 }
 
 .about-content {
@@ -60,10 +71,25 @@
 }
 
 .about-block {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  background: rgba(26, 26, 36, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(230, 57, 80, 0.2);
   border-radius: 12px;
   padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.8;
 }
 
 .about-block h2 {
@@ -77,6 +103,14 @@
   line-height: 1.6;
 }
 
+.section-contact {
+  padding-top: 1.5rem;
+}
+
+.section-contact .contact-page {
+  margin-top: 3rem;
+}
+
 .contact-page .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -84,16 +118,110 @@
   align-items: start;
 }
 
+/* Cards de contato - estilo glass cyberpunk */
+.contact-info-glass {
+  background: rgba(26, 26, 36, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(230, 57, 80, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-info-glass::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.8;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.contact-info-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-info-item .contact-icon {
+  flex-shrink: 0;
+  color: var(--accent);
+  margin-top: 0.15rem;
+}
+
 .contact-info h3 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
   color: var(--text-primary);
+  font-weight: 600;
 }
 
 .contact-info a {
-  display: block;
-  margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  transition: color 0.25s ease;
+  position: relative;
+}
+
+.contact-info a:hover {
+  color: var(--accent);
+}
+
+.contact-info a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s ease;
+}
+
+.contact-info a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.contact-cta {
+  margin-top: 1rem;
+  display: inline-flex;
+}
+
+/* Formulário em container glass com borda neon */
+.contact-form-wrapper {
+  position: relative;
+  padding: 1.5rem 1.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(230, 57, 80, 0.3);
+  background: linear-gradient(135deg, rgba(10, 10, 15, 0.6) 0%, rgba(26, 26, 36, 0.4) 100%);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 40px rgba(230, 57, 80, 0.1), inset 0 0 60px rgba(230, 57, 80, 0.02);
+  overflow: hidden;
+}
+
+.contact-form-wrapper::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 77, 106, 0.6);
+  box-shadow: 0 0 6px rgba(255, 77, 106, 0.3);
+  pointer-events: none;
+  animation: neonSequential 4s ease-in-out infinite;
 }
 
 .blog-post .back-link {
@@ -154,5 +282,9 @@
 @media (max-width: 768px) {
   .contact-page .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .contact-form-wrapper {
+    padding: 1.25rem 1.25rem;
   }
 }

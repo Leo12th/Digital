@@ -6,16 +6,17 @@ export function Home() {
   const { t } = useTranslation()
 
   const featuredServices = [
-    { icon: 'shirt', title: t('services.virtualFitting.title'), desc: t('services.virtualFitting.desc') },
-    { icon: 'cart', title: t('services.platforms.title'), desc: t('services.platforms.ecommerce') },
-    { icon: 'chart', title: t('services.marketing.title'), desc: t('services.marketing.desc') },
+    { icon: 'scan', title: t('services.virtualFitting.title'), desc: t('services.virtualFitting.desc') },
+    { icon: 'cpu', title: t('services.platforms.title'), desc: t('services.platforms.ecommerce') },
+    { icon: 'zap', title: t('services.marketing.title'), desc: t('services.marketing.desc') },
   ]
 
   return (
     <>
       <Hero />
-      <section className="section">
-        <div className="container">
+      <section className="section section-hero-bg">
+        <div className="section-hero-bg-grid" aria-hidden />
+        <div className="container container-services">
           <h2 className="section-title">{t('services.title')}</h2>
           <p className="section-subtitle">{t('home.seeServices')}</p>
           <div className="services-grid">

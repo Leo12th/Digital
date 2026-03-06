@@ -20,8 +20,9 @@
   },
   "home": {
     "heroTitle": "Somos uma empresa de",
-    "heroHighlight": "SOLUÇÕES INTEGRADAS",
-    "heroSubtitle": "para escalar grandes negócios.",
+    "heroHighlight": "Soluções integradas",
+    "heroSubtitle": "Para escalar",
+    "heroSubtitle2": "Grandes negócios",
     "heroDescription": "Criamos e aperfeiçoamos tecnologias voltadas para comunicação, marketing, comercial e promoção de vendas no segmento de vestuário.",
     "cta": "Entre em contato",
     "seeServices": "Conheça nossos serviços"
@@ -143,6 +144,7 @@
   "contact": {
     "title": "Entre em Contato",
     "subtitle": "Estamos prontos para ajudar seu negócio a crescer",
+    "ctaWhatsapp": "Fale conosco",
     "whatsapp": "WhatsApp",
     "email": "E-mail",
     "form": {

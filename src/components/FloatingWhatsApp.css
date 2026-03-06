@@ -4,18 +4,22 @@
   right: 24px;
   width: 56px;
   height: 56px;
-  background: #25d366;
+  background: var(--accent);
   color: white;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  box-shadow: 0 4px 12px var(--accent-glow);
   z-index: 999;
-  transition: transform 0.2s;
+  transition: transform 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 
 .floating-whatsapp:hover {
   transform: scale(1.05);
+  background: var(--accent-hover);
   color: white;
+  border-color: var(--accent);
+  box-shadow: 0 0 16px var(--accent-glow), 0 4px 12px rgba(0, 0, 0, 0.3);
 }

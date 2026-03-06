@@ -6,6 +6,12 @@ import {
   ShoppingCart,
   Megaphone,
   BarChart3,
+  ScanLine,
+  Cpu,
+  Zap,
+  Layers,
+  Globe,
+  Target,
 } from 'lucide-react'
 
 export const ServiceIcons = {
@@ -16,4 +22,10 @@ export const ServiceIcons = {
   cart: ShoppingCart,
   megaphone: Megaphone,
   chart: BarChart3,
+  scan: ScanLine,
+  cpu: Cpu,
+  zap: Zap,
+  layers: Layers,
+  globe: Globe,
+  target: Target,
 }

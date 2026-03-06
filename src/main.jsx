@@ -4,9 +4,7 @@ import './i18n'
 import './styles/global.css'
 import App from './App.jsx'
 
-const savedTheme = localStorage.getItem('theme') ||
-  (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-document.documentElement.setAttribute('data-theme', savedTheme)
+document.documentElement.setAttribute('data-theme', 'dark')
 
 const root = createRoot(document.getElementById('root'))
 

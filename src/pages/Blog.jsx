@@ -17,7 +17,8 @@ export function Blog() {
   const totalPages = Math.ceil(posts.length / ITEMS_PER_PAGE)
 
   return (
-    <section className="section">
+    <section className="section section-page-bg">
+      <div className="section-page-bg-grid" aria-hidden />
       <div className="container">
         <h1 className="section-title">{t('blog.title')}</h1>
         <p className="section-subtitle">{t('blog.subtitle')}</p>

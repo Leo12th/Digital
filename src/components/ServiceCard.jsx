@@ -3,7 +3,7 @@ import { ServiceIcons } from './Icons'
 const ICON_KEYS = ['shirt', 'rotate', 'fileSearch', 'store', 'cart', 'megaphone', 'chart']
 
 export function ServiceCard({ icon, title, description }) {
-  const Icon = ServiceIcons[icon] || ServiceIcons.shirt
+  const Icon = ServiceIcons[icon] || ServiceIcons.scan
 
   return (
     <article className="service-card">

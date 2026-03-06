@@ -23,7 +23,8 @@ export function Portfolio() {
   const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
 
   return (
-    <section className="section">
+    <section className="section section-page-bg">
+      <div className="section-page-bg-grid" aria-hidden />
       <div className="container">
         <h1 className="section-title">{t('portfolio.title')}</h1>
         <p className="section-subtitle">{t('portfolio.subtitle')}</p>

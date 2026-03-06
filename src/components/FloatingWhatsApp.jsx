@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 
 export function FloatingWhatsApp() {
   const { t } = useTranslation()
-  const phone = '5562992969882'
+  const phone = '5555984553553'
   const message = encodeURIComponent(t('whatsapp.message'))
 
   return (

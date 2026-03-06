@@ -7,10 +7,28 @@
   position: relative;
 }
 
+.blog-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--hero-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
 .blog-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 40px var(--shadow-lg);
+  box-shadow: 0 12px 40px var(--shadow-lg), 0 0 20px var(--accent-glow);
   border-color: transparent;
+}
+
+.blog-card:hover::before {
+  transform: scaleX(1);
 }
 
 .blog-card:hover .blog-image img {

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { ChevronRight, MessageCircle, Mail } from 'lucide-react'
 import { SocialShare } from './SocialShare'
 
 export function Footer() {
@@ -7,27 +8,31 @@ export function Footer() {
 
   return (
     <footer className="footer">
+      <div className="footer-neon-line" aria-hidden>
+        <div className="footer-neon-line-inner" />
+      </div>
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="logo">
-              <img src="/logo.png" alt="DIGITAL" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling?.classList.add('show') }} />
+              <img src="/Logo2.png" alt="DIGITAL" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling?.classList.add('show') }} />
               <span className="logo-text">DIGITAL</span>
             </Link>
-            <p className="tagline">{t('footer.tagline')}</p>
           </div>
           <div className="footer-links">
-            <Link to="/sobre">{t('nav.about')}</Link>
-            <Link to="/servicos">{t('nav.services')}</Link>
-            <Link to="/portfolio">{t('nav.portfolio')}</Link>
-            <Link to="/blog">{t('nav.blog')}</Link>
-            <Link to="/contato">{t('nav.contact')}</Link>
+            <Link to="/sobre"><ChevronRight size={14} className="link-icon" />{t('nav.about')}</Link>
+            <Link to="/servicos"><ChevronRight size={14} className="link-icon" />{t('nav.services')}</Link>
+            <Link to="/portfolio"><ChevronRight size={14} className="link-icon" />{t('nav.portfolio')}</Link>
+            <Link to="/blog"><ChevronRight size={14} className="link-icon" />{t('nav.blog')}</Link>
+            <Link to="/contato"><ChevronRight size={14} className="link-icon" />{t('nav.contact')}</Link>
           </div>
           <div className="footer-contact">
-            <a href="https://wa.me/5562992969882" target="_blank" rel="noopener noreferrer">
-              {t('contact.whatsapp')}: (62) 9 9296-9882
+            <a href="https://wa.me/5555984553553" target="_blank" rel="noopener noreferrer">
+              <MessageCircle size={18} className="contact-icon" />
+              {t('contact.whatsapp')}: +55 55 98455-3553
             </a>
             <a href="mailto:contato@digitalintegracoes.com.br">
+              <Mail size={18} className="contact-icon" />
               contato@digitalintegracoes.com.br
             </a>
           </div>
