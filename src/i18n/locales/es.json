@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "common": {
+    "language": "Idioma",
+    "toggleTheme": "Alternar tema",
+    "menu": "Menú",
+    "notFound": "No encontrado",
+    "postNotFound": "Publicación no encontrada.",
+    "pagination": "Paginación",
+    "prevPage": "Página anterior",
+    "nextPage": "Página siguiente"
+  },
+  "home": {
+    "heroTitle": "Somos una empresa de",
+    "heroHighlight": "SOLUCIONES INTEGRADAS",
+    "heroSubtitle": "para escalar grandes negocios.",
+    "heroDescription": "Creamos y perfeccionamos tecnologías enfocadas en comunicación, marketing, comercial y promoción de ventas en el segmento de vestuario.",
+    "cta": "Contáctenos",
+    "seeServices": "Conozca nuestros servicios"
+  },
+  "about": {
+    "title": "Nosotros",
+    "mission": "Somos una empresa de SOLUCIONES INTEGRADAS para escalar grandes negocios.",
+    "description": "Creamos y perfeccionamos tecnologías enfocadas en comunicación, marketing, comercial y promoción de ventas en el segmento de vestuario.",
+    "virtualFitting": "Probador Virtual",
+    "virtualFittingDesc": "¿Cambiando la colección? Invite a sus clientes y representantes potenciales a probar las prendas de su catálogo. Solo necesita una foto. Ellos eligen la prenda. Nuestro Probador Virtual muestra el ajuste y los detalles en 360°."
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Tecnologías para comunicación, marketing y ventas en el segmento de vestuario",
+    "virtualFitting": {
+      "title": "Probador Virtual",
+      "desc": "Su cliente envía una foto, selecciona la prenda y nuestro probador virtual muestra el ajuste y los detalles en su cuerpo."
+    },
+    "fitting360": {
+      "title": "Probador en 360°",
+      "desc": "Además de la foto, existe la opción de generar un video en 360°, mostrando todos los detalles de la prenda en el cuerpo."
+    },
+    "cnpj": {
+      "title": "Consulta de CNPJ",
+      "desc": "Consulte rápidamente el CNPJ de su prospecto. Sepa si la empresa está activa, ramo de actuación y más, de forma instantánea."
+    },
+    "platforms": {
+      "title": "Plataformas Compatibles",
+      "pos": "Adaptamos el proyecto para su punto de venta",
+      "ecommerce": "Añadimos el probador a su e-commerce",
+      "events": "Excelente acción de atracción para stands de eventos"
+    },
+    "marketing": {
+      "title": "Marketing Digital",
+      "desc": "Google y Meta ADS, chatbot humanizado, ventas automáticas, CRM y gestión de leads."
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "subtitle": "Conozca nuestros proyectos y casos de éxito",
+    "filterAll": "Todos",
+    "viewProject": "Ver proyecto",
+    "categoryProvador": "Probador Virtual",
+    "categoryMarketing": "Marketing"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Soluciones que desarrollamos para nuestros clientes",
+    "provadorVirtualSallo": {
+      "title": "Probador Virtual - Grupo Sallo",
+      "description": "Implementación del Probador Virtual para experimentación de prendas del catálogo en 360°.",
+      "tags": ["Probador Virtual", "Vestuario"]
+    },
+    "marketingDigitalLeads": {
+      "title": "Campaña de Leads - Google Ads",
+      "description": "Gestión de tráfico pago con foco en generación de leads cualificados y conversión.",
+      "tags": ["Marketing", "Google Ads"]
+    },
+    "chatbotWhatsapp": {
+      "title": "Chatbot Humanizado - WhatsApp",
+      "description": "Atención automatizada 24h con respuestas inteligentes y cualificación de leads.",
+      "tags": ["Chatbot", "WhatsApp"]
+    },
+    "ecommerceProvador": {
+      "title": "Probador en E-commerce",
+      "description": "Integración del Probador Virtual en tienda online para experiencia de compra diferenciada.",
+      "tags": ["Probador", "E-commerce"]
+    },
+    "standEventos": {
+      "title": "Stand de Eventos - Probador 360°",
+      "description": "Acción de atracción en feria con Probador en 360° para experimentación de colecciones.",
+      "tags": ["Eventos", "Probador 360°"]
+    },
+    "crmGestaoLeads": {
+      "title": "CRM y Gestión de Leads",
+      "description": "Sistema de gestión de clientes y leads con automatización de ventas.",
+      "tags": ["CRM", "Automatización"]
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Artículos e insights sobre marketing y tecnología",
+    "readMore": "Leer más",
+    "backToBlog": "Volver al blog",
+    "share": "Compartir",
+    "posts": {
+      "metaOuGoogleMelhorParaAnunciar": {
+        "title": "¿Meta o Google: cuál es mejor para anunciar?",
+        "excerpt": "Las reglas de publicidad en redes sociales cambiaron. Meta lanza novedades cada día. Descubra cuál plataforma es ideal para su negocio.",
+        "content": "<p>Generar leads ya no es tarea para quien sabe apretar botones. Es para quien entiende de estrategia.</p><p>Las reglas de publicidad en redes sociales cambiaron. Meta, dueña de Facebook, Instagram y WhatsApp, lanza novedades cada día.</p><p>En este artículo analizamos las diferencias entre Meta y Google Ads para ayudarle a elegir la mejor plataforma para sus objetivos.</p>"
+      },
+      "provadorVirtualEcommerce": {
+        "title": "Probador Virtual en E-commerce: cómo aumentar conversiones",
+        "excerpt": "La experiencia de probar ropa online revoluciona el e-commerce de vestuario. Vea cómo implementar.",
+        "content": "<p>El Probador Virtual permite que sus clientes experimenten las prendas del catálogo sin salir de casa.</p><p>Basta una foto del cliente, la selección de la pieza deseada, y nuestro sistema muestra el ajuste y los detalles en 360°.</p><p>Añadimos el probador a su e-commerce y lo adaptamos para eventos y punto de venta.</p>"
+      },
+      "chatbotsLimitadosAtendimento": {
+        "title": "Olvídese de los chats limitados",
+        "excerpt": "Los chats limitados raramente ofrecen todas las opciones que su cliente busca. Conozca soluciones que realmente atienden.",
+        "content": "<p>Raramente ofrecen todas las opciones que su cliente busca. Eso es lo mismo que no conversar con nadie.</p><p>Al final, su cliente acaba frustrado, irritado, y recibe lo que busca en otra empresa. Y no compra de usted.</p><p>Nuestro chatbot humanizado resuelve esto con atención 24h y alta calidad.</p>"
+      },
+      "gerarLeadsEraIa": {
+        "title": "Generar leads en la era de las I.A.",
+        "excerpt": "Iniciar y mantener una conversación con su cliente, en el menor tiempo posible y con alta calidad, es esencial.",
+        "content": "<p>Y no es solo generar leads el problema. En la era de las I.A., iniciar y mantener una conversación con su cliente, en el menor tiempo posible y con alta calidad, es esencial.</p><p>Digitalice su negocio. Genere leads, atienda y venda en automático.</p>"
+      },
+      "consultaCnpjRepresentantes": {
+        "title": "Consulta de CNPJ: ahorre tiempo con representantes",
+        "excerpt": "¿Tiene un nuevo representante comercial potencial? Consulte el CNPJ de forma instantánea y elimine leads descalificados.",
+        "content": "<p>Consulte rápidamente el CNPJ de su prospecto. Sepa si la empresa está activa, ramo de actuación y mucho más, de forma instantánea.</p><p>Ahorre tiempo y recursos. Elimine leads descalificados de su embudo. Invierta más tiempo en quien tiene más chance de cerrar un gran negocio.</p>"
+      },
+      "venderDesafioDiario": {
+        "title": "¿Vender se volvió desafío diario?",
+        "excerpt": "Pero usted sabe que no tiene que ser así. Conozca las soluciones que pueden transformar sus ventas.",
+        "content": "<p>¿Vender se volvió desafío diario? Pero usted sabe que no tiene que ser así.</p><p>Con las herramientas correctas - anuncios que generan resultados, atención 24h, CRM y automatización - puede escalar su negocio.</p>"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Estamos listos para ayudar a su negocio a crecer",
+    "whatsapp": "WhatsApp",
+    "email": "Correo",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
+      "send": "Enviar",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar. Intente nuevamente."
+    }
+  },
+  "footer": {
+    "tagline": "SOLUCIONES INTEGRADAS PARA NEGOCIOS",
+    "rights": "Todos los derechos reservados",
+    "shareTitle": "DIGITAL - Soluciones Integradas"
+  },
+  "whatsapp": {
+    "message": "¡Hola! Me gustaría saber más sobre los servicios de DIGITAL.",
+    "ariaLabel": "Contacto vía WhatsApp",
+    "label": "WhatsApp"
+  },
+  "company": {
+    "name": "DIGITAL"
+  },
+  "meta": {
+    "title": "DIGITAL - Soluciones Integradas para Negocios",
+    "description": "DIGITAL - Soluciones Integradas para Negocios. Probador Virtual, Marketing Digital, CRM y más para el segmento de vestuario.",
+    "ogDescription": "Creamos tecnologías para comunicación, marketing y ventas en el segmento de vestuario."
+  }
+}

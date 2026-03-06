@@ -1,0 +1,8 @@
+export { Home } from './Home'
+export { Sobre } from './Sobre'
+export { Servicos } from './Servicos'
+export { Portfolio } from './Portfolio'
+export { Projetos } from './Projetos'
+export { Blog } from './Blog'
+export { BlogPost } from './BlogPost'
+export { Contato } from './Contato'
