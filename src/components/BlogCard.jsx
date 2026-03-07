@@ -4,7 +4,8 @@ import { SocialShare } from './SocialShare'
 
 export function BlogCard({ slug, title, excerpt, date, author, image }) {
   const { t } = useTranslation()
-  const url = typeof window !== 'undefined' ? `${window.location.origin}/blog/${slug}` : ''
+  const base = import.meta.env.BASE_URL
+  const url = typeof window !== 'undefined' ? `${window.location.origin}${base}blog/${slug}` : ''
 
   return (
     <article className="blog-card">
