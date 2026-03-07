@@ -16,7 +16,7 @@ import './styles/pages.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Digital">
       <LanguageSync />
       <Header />
       <main>
