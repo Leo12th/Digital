@@ -3,8 +3,8 @@ export function Hero() {
     <>
       <section className="hero">
         <img
-          src="/hero.png"
-          srcSet="/hero.png 1x, /hero-2x.png 2x"
+          src={`${import.meta.env.BASE_URL}hero.png`}
+          srcSet={`${import.meta.env.BASE_URL}hero.png 1x, ${import.meta.env.BASE_URL}hero-2x.png 2x`}
           alt=""
           className="hero-image"
           aria-hidden

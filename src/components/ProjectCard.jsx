@@ -15,7 +15,7 @@ export function ProjectCard({ project, t, title, description, image, tags = [], 
   return (
     <article className="project-card">
       <div className="project-image">
-        <img src={displayImage || '/vite.svg'} alt={displayTitle} />
+        <img src={`${import.meta.env.BASE_URL}${(displayImage || '/vite.svg').replace(/^\//, '')}`} alt={displayTitle} />
       </div>
       <div className="project-content">
         <div className="project-tags">

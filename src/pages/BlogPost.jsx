@@ -36,7 +36,7 @@ export function BlogPost() {
           <h1 className="post-title">{title}</h1>
         </header>
         <div className="post-image">
-          <img src={post.image || '/vite.svg'} alt={title} />
+          <img src={`${import.meta.env.BASE_URL}${(post.image || '/vite.svg').replace(/^\//, '')}`} alt={title} />
         </div>
         <div className="post-content" dangerouslySetInnerHTML={{ __html: content }} />
         {hasSources && (

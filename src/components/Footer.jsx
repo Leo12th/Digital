@@ -15,7 +15,7 @@ export function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="logo">
-              <img src="/Logo2.png" alt="DIGITAL" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling?.classList.add('show') }} />
+              <img src={`${import.meta.env.BASE_URL}Logo2.png`} alt="DIGITAL" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling?.classList.add('show') }} />
               <span className="logo-text">DIGITAL</span>
             </Link>
           </div>

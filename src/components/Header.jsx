@@ -21,7 +21,7 @@ export function Header() {
     <header className="header">
       <div className="container header-inner">
         <Link to="/" className="logo">
-          <img src="/logo.png" alt="DIGITAL" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling?.classList.add('show') }} />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="DIGITAL" className="logo-img" onError={(e) => { e.target.style.display='none'; e.target.nextSibling?.classList.add('show') }} />
           <span className="logo-text">DIGITAL</span>
         </Link>
 

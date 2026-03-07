@@ -9,7 +9,7 @@ export function BlogCard({ slug, title, excerpt, date, author, image }) {
   return (
     <article className="blog-card">
       <Link to={`/blog/${slug}`} className="blog-image">
-        <img src={image || '/vite.svg'} alt={title} />
+        <img src={`${import.meta.env.BASE_URL}${(image || '/vite.svg').replace(/^\//, '')}`} alt={title} />
       </Link>
       <div className="blog-content">
         <span className="blog-meta">{date} {author && `• ${t('company.name')}`}</span>
