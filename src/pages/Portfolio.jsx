@@ -47,6 +47,7 @@ export function Portfolio() {
               key={proj.id}
               project={proj}
               t={t}
+              variant="portfolio"
             />
           ))}
         </div>

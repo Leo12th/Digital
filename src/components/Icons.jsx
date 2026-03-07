@@ -12,6 +12,14 @@ import {
   Layers,
   Globe,
   Target,
+  Palette,
+  Rocket,
+  Bot,
+  Handshake,
+  Settings,
+  Film,
+  Brain,
+  MessageCircle,
 } from 'lucide-react'
 
 export const ServiceIcons = {
@@ -28,4 +36,12 @@ export const ServiceIcons = {
   layers: Layers,
   globe: Globe,
   target: Target,
+  palette: Palette,
+  rocket: Rocket,
+  bot: Bot,
+  handshake: Handshake,
+  settings: Settings,
+  film: Film,
+  brain: Brain,
+  messageCircle: MessageCircle,
 }

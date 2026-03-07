@@ -33,7 +33,10 @@ export function Header() {
               key={to}
               to={to}
               end={to === '/'}
-              onClick={() => setMenuOpen(false)}
+              onClick={() => {
+                setMenuOpen(false)
+                window.scrollTo({ top: 0, behavior: 'smooth' })
+              }}
               className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
             >
               {label}

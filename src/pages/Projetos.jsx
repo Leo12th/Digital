@@ -24,7 +24,7 @@ export function Projetos() {
 
         <div className="projects-grid">
           {paginated.map(proj => (
-            <ProjectCard key={proj.id} project={proj} t={t} />
+            <ProjectCard key={proj.id} project={proj} t={t} variant="projects" />
           ))}
         </div>
 

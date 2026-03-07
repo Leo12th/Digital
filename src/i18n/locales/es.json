@@ -25,7 +25,10 @@
     "heroSubtitle2": "Grandes negocios",
     "heroDescription": "Creamos y perfeccionamos tecnologías enfocadas en comunicación, marketing, comercial y promoción de ventas en el segmento de vestuario.",
     "cta": "Contáctenos",
-    "seeServices": "Conozca nuestros servicios"
+    "seeServices": "Conozca nuestros servicios",
+    "seePortfolio": "Ver portafolio completo",
+    "seeProjects": "Ver todos los proyectos",
+    "seeBlog": "Ver todos los artículos"
   },
   "about": {
     "title": "Nosotros",
@@ -36,28 +39,50 @@
   },
   "services": {
     "title": "Nuestros Servicios",
-    "subtitle": "Tecnologías para comunicación, marketing y ventas en el segmento de vestuario",
-    "virtualFitting": {
-      "title": "Probador Virtual",
-      "desc": "Su cliente envía una foto, selecciona la prenda y nuestro probador virtual muestra el ajuste y los detalles en su cuerpo."
+    "subtitle": "Soluciones integradas para impulsar su negocio",
+    "logoIdentity": {
+      "title": "Creación de Logo e Identidad Visual",
+      "desc": "Creamos marcas que transmiten identidad, profesionalismo y posicionamiento. Desarrollamos logotipo, paleta de colores, tipografía y elementos visuales para garantizar consistencia y reconocimiento de su marca."
     },
-    "fitting360": {
-      "title": "Probador en 360°",
-      "desc": "Además de la foto, existe la opción de generar un video en 360°, mostrando todos los detalles de la prenda en el cuerpo."
+    "trafficManagement": {
+      "title": "Gestión de Tráfico Pago",
+      "desc": "Planeamos, creamos y optimizamos campañas de anuncios en las principales plataformas digitales para atraer clientes calificados y generar más leads y ventas para su empresa."
     },
-    "cnpj": {
-      "title": "Consulta de CNPJ",
-      "desc": "Consulte rápidamente el CNPJ de su prospecto. Sepa si la empresa está activa, ramo de actuación y más, de forma instantánea."
+    "whatsappChatbot": {
+      "title": "Chatbot con I.A. para WhatsApp, Sitio y Otras Plataformas",
+      "desc": "Implementamos chatbots inteligentes con IA para WhatsApp, sitio y otras plataformas. Atención automatizada 24h, cualificación de leads y resolución de demandas sin intervención humana."
     },
-    "platforms": {
-      "title": "Plataformas Compatibles",
-      "pos": "Adaptamos el proyecto para su punto de venta",
-      "ecommerce": "Añadimos el probador a su e-commerce",
-      "events": "Excelente acción de atracción para stands de eventos"
+    "leadsClients": {
+      "title": "Gestión de Leads y Clientes",
+      "desc": "Organizamos y acompañamos sus contactos y clientes a través de sistemas de gestión que ayudan a controlar el embudo de ventas y mejorar la relación con el público."
     },
-    "marketing": {
-      "title": "Marketing Digital",
-      "desc": "Google y Meta ADS, chatbot humanizado, ventas automáticas, CRM y gestión de leads."
+    "highConversionSites": {
+      "title": "Sitios de Alta Conversión",
+      "desc": "Desarrollamos sitios web y landing pages estratégicas enfocadas en transformar visitantes en leads y clientes, con diseño moderno y estructura optimizada para conversión."
+    },
+    "onDemandPrograms": {
+      "title": "Sistemas Bajo Demanda",
+      "desc": "Creamos sistemas personalizados para automatizar procesos, integrar plataformas y atender necesidades específicas de su negocio."
+    },
+    "businessStrategy": {
+      "title": "Negocios y Estrategia",
+      "desc": "Analizamos mercado, público y competencia para desarrollar estrategias de marketing y crecimiento alineadas con los objetivos de su empresa."
+    },
+    "adsPerformance": {
+      "title": "Producción de Contenido / Social Media",
+      "desc": "Creamos contenido estratégico para redes sociales, gestión de presencia digital y campañas orgánicas que involucran a su público y fortalecen la marca."
+    },
+    "mediaOnOff": {
+      "title": "Medios On / Off",
+      "desc": "Planeamos campañas integradas que conectan estrategias digitales y presenciales, garantizando mayor alcance e impacto de la comunicación."
+    },
+    "automationSystems": {
+      "title": "Sistemas de Automatización",
+      "desc": "Desarrollamos soluciones que automatizan procesos operacionales, integrando herramientas y reduciendo trabajo manual para ganar eficiencia."
+    },
+    "systemsWithAi": {
+      "title": "Sistemas con I.A.",
+      "desc": "Creamos sistemas inteligentes que utilizan inteligencia artificial para análisis de datos, predicciones y decisiones automatizadas en su negocio."
     }
   },
   "portfolio": {
@@ -69,37 +94,57 @@
     "categoryMarketing": "Marketing"
   },
   "projects": {
+    "consult": "Consultar",
+    "consultMessage": "¡Hola! Me gustaría consultar presupuesto para el proyecto: {{project}}",
     "title": "Proyectos",
     "subtitle": "Soluciones que desarrollamos para nuestros clientes",
     "provadorVirtualSallo": {
-      "title": "Probador Virtual - Grupo Sallo",
+      "title": "Probador Virtual",
       "description": "Implementación del Probador Virtual para experimentación de prendas del catálogo en 360°.",
-      "tags": ["Probador Virtual", "Vestuario"]
+      "tags": [
+        "Probador Virtual",
+        "Vestuario"
+      ]
     },
     "marketingDigitalLeads": {
       "title": "Campaña de Leads - Google Ads",
       "description": "Gestión de tráfico pago con foco en generación de leads cualificados y conversión.",
-      "tags": ["Marketing", "Google Ads"]
+      "tags": [
+        "Marketing",
+        "Google Ads"
+      ]
     },
     "chatbotWhatsapp": {
       "title": "Chatbot Humanizado - WhatsApp",
       "description": "Atención automatizada 24h con respuestas inteligentes y cualificación de leads.",
-      "tags": ["Chatbot", "WhatsApp"]
+      "tags": [
+        "Chatbot",
+        "WhatsApp"
+      ]
     },
     "ecommerceProvador": {
       "title": "Probador en E-commerce",
       "description": "Integración del Probador Virtual en tienda online para experiencia de compra diferenciada.",
-      "tags": ["Probador", "E-commerce"]
+      "tags": [
+        "Probador",
+        "E-commerce"
+      ]
     },
     "standEventos": {
       "title": "Stand de Eventos - Probador 360°",
       "description": "Acción de atracción en feria con Probador en 360° para experimentación de colecciones.",
-      "tags": ["Eventos", "Probador 360°"]
+      "tags": [
+        "Eventos",
+        "Probador 360°"
+      ]
     },
     "crmGestaoLeads": {
       "title": "CRM y Gestión de Leads",
       "description": "Sistema de gestión de clientes y leads con automatización de ventas.",
-      "tags": ["CRM", "Automatización"]
+      "tags": [
+        "CRM",
+        "Automatización"
+      ]
     }
   },
   "blog": {
@@ -108,36 +153,294 @@
     "readMore": "Leer más",
     "backToBlog": "Volver al blog",
     "share": "Compartir",
+    "sourcesLabel": "Fuentes",
     "posts": {
       "metaOuGoogleMelhorParaAnunciar": {
-        "title": "¿Meta o Google: cuál es mejor para anunciar?",
-        "excerpt": "Las reglas de publicidad en redes sociales cambiaron. Meta lanza novedades cada día. Descubra cuál plataforma es ideal para su negocio.",
-        "content": "<p>Generar leads ya no es tarea para quien sabe apretar botones. Es para quien entiende de estrategia.</p><p>Las reglas de publicidad en redes sociales cambiaron. Meta, dueña de Facebook, Instagram y WhatsApp, lanza novedades cada día.</p><p>En este artículo analizamos las diferencias entre Meta y Google Ads para ayudarle a elegir la mejor plataforma para sus objetivos.</p>"
+        "title": "¿Meta o Google: cuál es mejor para anunciar en 2026?",
+        "excerpt": "Las reglas de publicidad en redes sociales cambiaron. Meta lanza novedades cada día. Descubra cuál plataforma es ideal para su negocio en 2026.",
+        "content": "<p>Generar leads ya no es tarea para quien sabe apretar botones. Es para quien entiende de estrategia. En 2026, el panorama del tráfico pago ha evolucionado de forma acelerada: nuevas políticas de privacidad, cambios en los algoritmos de segmentación y la consolidación de formatos como Reels y Shorts exigen una visión integrada. El gasto en anuncios digitales debe superar 600 mil millones de dólares globalmente en 2026, según proyecciones de eMarketer<sup>[3]</sup>.</p><p>Las reglas de publicidad en redes sociales cambiaron radicalmente. Meta, dueña de Facebook, Instagram y WhatsApp, lanza novedades cada día — desde Advantage+ hasta integraciones con IA generativa para creación de anuncios. Advantage+ Campaigns<sup>[1]</sup> permite que el algoritmo optimice automáticamente entre formatos, públicos y posicionamientos, reduciendo el trabajo manual de configuración.</p><p>Google, a su vez, fortaleció Performance Max<sup>[2]</sup> y amplió el uso de machine learning en campañas de búsqueda y display. Las campañas Performance Max combinan YouTube, Display, Search, Maps y Gmail en una sola campaña, con el algoritmo decidiendo dónde asignar el presupuesto.</p><p>La diferencia fundamental: en Meta, el usuario está en modo descubrimiento (scroll, entretenimiento); en Google, muchas veces está en modo búsqueda (quiere resolver algo ahora). Para productos de consideración o impulso, Meta tiende a performar bien. Para intención de compra explícita — \"mejor CRM para pequeñas empresas\" — Google Search domina.</p><p>El costo por lead varía por vertical y región. En general, los leads de Google tienden a ser más calientes (ya investigaron el problema) pero más caros. Los leads de Meta suelen ser más fríos, aunque en mayor volumen y menor costo. La combinación permite diversificar fuentes y reducir dependencia de un solo canal.</p><p>Para negocios B2B o con ciclo de venta largo, la combinación de ambas plataformas suele ser más efectiva. Meta para awareness y consideración; Google para captura de demanda con alta intención. LinkedIn entra cuando el público es corporativo y el ticket es alto.</p><p>TikTok Ads creció rápidamente para públicos jóvenes y nichos de moda, belleza y entretenimiento. Amazon Ads es esencial para e-commerce con productos en el marketplace. La decisión debe considerar su público, ticket medio y objetivo principal — awareness, consideración o conversión directa.</p><p>Recomendaciones prácticas: comience con 70% del presupuesto en la plataforma principal (la que mejor convierte para su negocio) y 30% en pruebas en la segunda. Haga pruebas A/B en creativos, headlines y públicos. Acompañe métricas como CPL, CPA, ROAS y calidad del lead (tasa de conversión en cliente).</p><p>En 2026, la automatización avanzó, pero el gestor que entiende métricas, segmentación y creativos sigue esencial. Concluimos que la elección no es Meta o Google — es cómo combinar ambos de forma estratégica.</p>",
+        "sources": [
+          { "title": "Meta for Business - Advantage+ Campaigns", "url": "https://www.facebook.com/business/ads" },
+          { "title": "Google Ads - Performance Max", "url": "https://ads.google.com" },
+          { "title": "eMarketer - Digital Ad Spending 2026", "url": "https://www.insiderintelligence.com" }
+        ]
       },
       "provadorVirtualEcommerce": {
         "title": "Probador Virtual en E-commerce: cómo aumentar conversiones",
-        "excerpt": "La experiencia de probar ropa online revoluciona el e-commerce de vestuario. Vea cómo implementar.",
-        "content": "<p>El Probador Virtual permite que sus clientes experimenten las prendas del catálogo sin salir de casa.</p><p>Basta una foto del cliente, la selección de la pieza deseada, y nuestro sistema muestra el ajuste y los detalles en 360°.</p><p>Añadimos el probador a su e-commerce y lo adaptamos para eventos y punto de venta.</p>"
+        "excerpt": "La experiencia de probar ropa online revoluciona el e-commerce de vestuario. Vea cómo implementar y medir resultados en 2026.",
+        "content": "<p>El Probador Virtual permite que sus clientes experimenten las prendas del catálogo sin salir de casa. En 2026, la tecnología de visión computacional e IA ha alcanzado niveles de precisión que reducen significativamente la incertidumbre en la compra online — una de las principales causas de abandono de carrito en vestuario. El Baymard Institute<sup>[1]</sup> señala que talla y ajuste son las principales dudas en 29% de las compras abandonadas en el segmento de moda.</p><p>Basta una foto del cliente, la selección de la pieza deseada, y nuestro sistema muestra el ajuste y los detalles en 360°. La integración con catálogos digitales, ERP y plataformas de e-commerce permite que la experiencia sea fluida desde el descubrimiento hasta el checkout. Plataformas como Shopify<sup>[2]</sup> ya ofrecen APIs e integraciones nativas para tecnologías de virtual try-on.</p><p>Estudios recientes indican que tiendas que implementan probador virtual registran reducción de devoluciones entre 15% y 25%, además de aumento en la tasa de conversión y en el ticket medio. El consumidor tiende a añadir más prendas al carrito cuando puede visualizar el resultado antes de comprar. En algunos casos, el ticket medio aumenta 10% a 20%.</p><p>El proceso es simple: el cliente toma una selfie o usa foto existente, elige la pieza en el catálogo, y el sistema superpone la prenda en la imagen con ajuste de proporción y perspectiva. La tecnología de deep learning garantiza un ajuste realista, considerando tipo de tela y modelo del cuerpo.</p><p>Para el segmento de vestuario B2B, el probador virtual funciona en ferias y eventos: representantes y compradores pueden experimentar la colección sin necesitar muestras físicas de todas las piezas. Reduce costos de logística y acelera la decisión de compra.</p><p>Añadimos el probador a su e-commerce y lo adaptamos para eventos y punto de venta. En ferias, stands y tiendas físicas, la herramienta funciona como diferencial de experiencia y captura de leads cualificados. El visitante que experimenta deja contacto para recibir el link de la colección.</p><p>Requisitos técnicos: fotos de producto en alta resolución, múltiples ángulos cuando sea posible, y datos de medidas de las piezas para calibrar el algoritmo. La integración con CMS y ERP garantiza que el catálogo esté siempre actualizado.</p><p>Métricas para acompañar: tasa de uso del probador (cuántos visitantes experimentan), impacto en conversión (comparar usuarios que usaron vs. no usaron), reducción de devoluciones y NPS. El ROI suele materializarse en 6 a 12 meses, dependiendo del volumen de tráfico.</p><p>Concluimos que el probador virtual dejó de ser experimental y pasó a ser diferencial competitivo en el e-commerce de vestuario en 2026.</p>",
+        "sources": [
+          { "title": "Baymard Institute - E-commerce UX Research", "url": "https://baymard.com" },
+          { "title": "Shopify - Virtual Try-On Technology", "url": "https://www.shopify.com" }
+        ]
       },
       "chatbotsLimitadosAtendimento": {
         "title": "Olvídese de los chats limitados",
-        "excerpt": "Los chats limitados raramente ofrecen todas las opciones que su cliente busca. Conozca soluciones que realmente atienden.",
-        "content": "<p>Raramente ofrecen todas las opciones que su cliente busca. Eso es lo mismo que no conversar con nadie.</p><p>Al final, su cliente acaba frustrado, irritado, y recibe lo que busca en otra empresa. Y no compra de usted.</p><p>Nuestro chatbot humanizado resuelve esto con atención 24h y alta calidad.</p>"
+        "excerpt": "Los chats limitados raramente ofrecen todas las opciones que su cliente busca. Conozca soluciones que realmente atienden en 2026.",
+        "content": "<p>Los chats limitados raramente ofrecen todas las opciones que su cliente busca. Eso es lo mismo que no conversar con nadie. En 2026, el cliente espera respuestas contextualizadas, encaminamiento inteligente y resolución sin repetir información. Según investigación de Zendesk, 72% de los consumidores esperan que las empresas utilicen su información para personalizar experiencias<sup>[1]</sup>.</p><p>Al final, su cliente acaba frustrado, irritado, y recibe lo que busca en otra empresa. Y no compra de usted. El costo de una experiencia mala va más allá de la venta perdida: impacta NPS, evaluaciones y el costo de adquisición de un nuevo cliente para reemplazar el perdido. Estudios indican que adquirir un nuevo cliente cuesta de 5 a 25 veces más que retener uno existente.</p><p>El problema de los menús fijos y respuestas predefinidas es la rigidez. Un cliente que pregunta \"¿cuál es el plazo de entrega para Curitiba?\" no quiere navegar por tres niveles de menú. Quiere respuesta directa. La documentación oficial de WhatsApp Business API<sup>[2]</sup> refuerza la importancia de mensajes contextualizados y respuestas rápidas para mantener la calidad de la conversación.</p><p>Nuestro chatbot humanizado resuelve esto con atención 24h y alta calidad. Utilizamos modelos de lenguaje entrenados en su negocio, integración con CRM y WhatsApp Business API para escalar la atención sin perder el tono de voz de la marca. La IA conversacional, según Gartner<sup>[3]</sup>, está entre las tecnologías de mayor impacto para experiencia del cliente en 2026.</p><p>La arquitectura de flujos conversacionales debe prever escenarios de handoff: cuando el bot no puede resolver, la conversación se transfiere a un humano con todo el historial. El agente recibe el contexto completo y el cliente no necesita repetir información. Esta transición suave es crítica para mantener la satisfacción.</p><p>Métricas como tiempo de respuesta medio, tasa de resolución en el primer contacto y CSAT permiten acompañar la calidad. Empresas que implementan chatbots bien diseñados reportan reducción de 30% a 50% en el volumen de tickets que llegan al equipo humano, liberando tiempo para casos complejos.</p><p>En la cualificación de leads, el chatbot puede hacer preguntas de cualificación (BANT o similar), registrar respuestas en el CRM y encaminar solo leads calientes al vendedor. El resultado: vendedores se enfocan en negociación, no en triaje.</p><p>En posventa, confirmación de pedidos, rastreo de entrega e investigación de satisfacción pueden automatizarse. Un \"¡Gracias por su compra! Su pedido salió para entrega. Rastree aquí: [link]\" reduce drásticamente las dudas recurrentes.</p><p>El soporte técnico también se beneficia: FAQs, troubleshooting paso a paso y escalamiento inteligente. Cuando el problema exige intervención humana, el ticket ya llega categorizado con información preliminar.</p><p>La automatización debe ampliar la capacidad del equipo, no reemplazarlo de forma rígida. El equilibrio entre eficiencia y humanización define el éxito. Concluimos que un chatbot bien diseñado reduce costos y mejora la experiencia simultáneamente — cuando se hace con estrategia y cuidado.</p>",
+        "sources": [
+          { "title": "Zendesk - Customer Experience Trends Report 2025", "url": "https://www.zendesk.com" },
+          { "title": "WhatsApp Business API - Documentación oficial", "url": "https://developers.facebook.com/docs/whatsapp" },
+          { "title": "Gartner - Conversational AI", "url": "https://www.gartner.com" }
+        ]
       },
       "gerarLeadsEraIa": {
         "title": "Generar leads en la era de las I.A.",
-        "excerpt": "Iniciar y mantener una conversación con su cliente, en el menor tiempo posible y con alta calidad, es esencial.",
-        "content": "<p>Y no es solo generar leads el problema. En la era de las I.A., iniciar y mantener una conversación con su cliente, en el menor tiempo posible y con alta calidad, es esencial.</p><p>Digitalice su negocio. Genere leads, atienda y venda en automático.</p>"
+        "excerpt": "Iniciar y mantener una conversación con su cliente, en el menor tiempo posible y con alta calidad, es esencial en 2026.",
+        "content": "<p>Y no es solo generar leads el problema. En la era de las I.A., iniciar y mantener una conversación con su cliente, en el menor tiempo posible y con alta calidad, es esencial. En 2026, la competencia por atención y tiempo del consumidor se ha intensificado: quien responde primero y mejor tiende a cerrar el negocio. El reporte State of AI in Marketing de HubSpot<sup>[1]</sup> indica que 64% de los profesionales de marketing ya utilizan IA en alguna etapa del embudo.</p><p>Digitalice su negocio. Genere leads, atienda y venda en automático. La combinación de tráfico pago cualificado, chatbots inteligentes y CRM integrado permite que el embudo opere de forma continua, incluso fuera del horario comercial. El State of Sales de Salesforce<sup>[2]</sup> muestra que empresas con automatización de follow-up convierten 53% más leads en oportunidades.</p><p>Las I.A.s generativas han transformado la creación de contenido para campañas, la personalización de mensajes y el análisis de intención en conversaciones. Empresas que adoptan estas herramientas de forma estratégica reducen el tiempo medio de cualificación y aumentan la tasa de conversión de lead en cliente.</p><p>El lead scoring con IA considera no solo datos demográficos (cargo, empresa, tamaño) sino comportamiento: páginas visitadas, tiempo en el sitio, descargas, interacciones con chatbot. El modelo aprende de los leads que convirtieron y ajusta los pesos automáticamente.</p><p>Automatización de follow-up: cuando un lead llena formulario o interactúa con el chatbot, se dispara una secuencia de mensajes — correo, WhatsApp, o ambos. El timing y el contenido pueden personalizarse según etapa del embudo y perfil del lead.</p><p>El toque humano en momentos decisivos: cuando el lead alcanza score alto o demuestra intención explícita (pidió cotización, agendó reunión), un vendedor asume. La IA prepara un resumen del historial para que el vendedor llegue contextualizado.</p><p>Los agentes conversacionales en 2026 van más allá de chatbots reactivos: pueden investigar, consultar sistemas, agendar reuniones y cualificar leads en conversaciones naturales. La integración con datos de primera parte (CRM, sitio, WhatsApp) alimenta el contexto.</p><p>La gobernanza de datos es prerrequisito: LGPD, consentimiento, seguridad. Modelos de IA entrenados con datos inadecuados generan sesgo y riesgo regulatorio. Concluimos que la era de las I.A.s exige estrategia, no solo herramientas.</p>",
+        "sources": [
+          { "title": "HubSpot - State of AI in Marketing", "url": "https://www.hubspot.com" },
+          { "title": "Salesforce - State of Sales Report", "url": "https://www.salesforce.com" }
+        ]
       },
       "consultaCnpjRepresentantes": {
         "title": "Consulta de CNPJ: ahorre tiempo con representantes",
         "excerpt": "¿Tiene un nuevo representante comercial potencial? Consulte el CNPJ de forma instantánea y elimine leads descalificados.",
-        "content": "<p>Consulte rápidamente el CNPJ de su prospecto. Sepa si la empresa está activa, ramo de actuación y mucho más, de forma instantánea.</p><p>Ahorre tiempo y recursos. Elimine leads descalificados de su embudo. Invierta más tiempo en quien tiene más chance de cerrar un gran negocio.</p>"
+        "content": "<p>¿Tiene un nuevo representante comercial potencial? Consulte el CNPJ de forma instantánea y elimine leads descalificados. En negocios B2B y en el segmento de vestuario, la cualificación previa de representantes evita desperdicio de tiempo en reuniones con empresas inactivas, irregularizadas o fuera del perfil deseado. La Receita Federal<sup>[1]</sup> dispone consulta pública de CNPJ con datos básicos de la empresa.</p><p>Consulte rápidamente el CNPJ de su prospecto. Sepa si la empresa está activa, ramo de actuación, facturación estimada y mucho más, de forma instantánea. Sistemas bajo demanda pueden integrar esta consulta al flujo de registro, CRM o WhatsApp, automatizando el triaje antes de que un vendedor necesite dedicar tiempo al contacto.</p><p>Ahorre tiempo y recursos. Elimine leads descalificados de su embudo. Invierta más tiempo en quien tiene más chance de cerrar un gran negocio. La lógica vale tanto para representantes comerciales como para clientes corporativos: validar datos básicos antes del primer contacto cualifica el pipeline y mejora la productividad del equipo.</p><p>Las integraciones vía API permiten consultar CNPJ en tiempo real durante el llenado de formularios. Si la empresa está inactiva o irregular, el sistema puede bloquear el registro o señalar para revisión manual. Reduce drásticamente el tiempo de triaje.</p><p>La LGPD<sup>[2]</sup> exige que el uso de datos sea adecuado, documentado y con base legal. Consultar CNPJ para cualificación comercial es legítimo, pero el propósito debe estar claro y el consentimiento obtenido cuando aplique. Documente el flujo y las políticas de retención.</p><p>En procesos de onboarding de representantes, la consulta de CNPJ puede ser la primera etapa: antes de enviar contrato o agendar reunión, valide si la empresa existe y está en situación regular. Concluimos que esta etapa simple evita retrabajo y protege su operación.</p>",
+        "sources": [
+          { "title": "Receita Federal - Consulta CNPJ", "url": "https://www.gov.br/receitafederal" },
+          { "title": "LGPD - Lei Geral de Proteção de Dados", "url": "https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd" }
+        ]
       },
       "venderDesafioDiario": {
         "title": "¿Vender se volvió desafío diario?",
-        "excerpt": "Pero usted sabe que no tiene que ser así. Conozca las soluciones que pueden transformar sus ventas.",
-        "content": "<p>¿Vender se volvió desafío diario? Pero usted sabe que no tiene que ser así.</p><p>Con las herramientas correctas - anuncios que generan resultados, atención 24h, CRM y automatización - puede escalar su negocio.</p>"
+        "excerpt": "Pero usted sabe que no tiene que ser así. Conozca las soluciones que pueden transformar sus ventas en 2026.",
+        "content": "<p>¿Vender se volvió desafío diario? Pero usted sabe que no tiene que ser así. En 2026, las empresas que venden más no necesariamente tienen más vendedores — tienen mejores sistemas: anuncios que atraen al cliente correcto, atención que cualifica y convierte, CRM que organiza el pipeline y automatización que no deja enfriar el lead caliente. McKinsey<sup>[1]</sup> llama a esto el \"B2B Digital Imperative\": la digitalización no es opcional, es condición de supervivencia.</p><p>Con las herramientas correctas — anuncios que generan resultados, atención 24h, CRM y automatización — puede escalar su negocio. La combinación de tráfico pago, chatbot en WhatsApp y gestión de leads permite que su equipo se enfoque en negociación y cierre, no en tareas repetitivas. Gartner<sup>[2]</sup> destaca que el stack de Sales Technology es una de las mayores inversiones de las empresas B2B en 2026.</p><p>El desafío no es tecnológico, es estratégico: alinear marketing, ventas y operación en un flujo único. Cuando el lead entra por el anuncio, es cualificado por el chatbot y encaminado al CRM con historial completo, el vendedor llega preparado y el cliente percibe un servicio coherente en todos los puntos de contacto.</p><p>Estructura del embudo integrado: (1) Adquisición — anuncios en Meta, Google o LinkedIn; (2) Cualificación — chatbot o landing page con formulario; (3) Nutrición — secuencia de correos y mensajes; (4) Venta — vendedor asume cuando el lead está caliente; (5) Posventa — onboarding y fidelización.</p><p>Métricas prioritarias: costo por lead (CPL), tasa de conversión lead→oportunidad, tasa de cierre, tiempo medio de ciclo de venta, LTV (valor vitalicio del cliente). Dashboards que consolidan estas métricas permiten decisiones basadas en datos.</p><p>Cuando el presupuesto es limitado, priorice: primero CRM (organización), después atención automatizada (escala), luego tráfico pago (volumen). Un CRM mal usado con mucho tráfico genera caos; un CRM bien configurado con poco tráfico genera leads cualificados.</p><p>Checklist de diagnóstico: ¿sus leads llegan en menos de 5 minutos? ¿El historial de la conversación está en el CRM? ¿Hay follow-up automático para leads que no responden? ¿El vendedor sabe qué investigó el lead antes del contacto? Respuestas \"no\" indican cuellos de botella.</p><p>Concluimos que el mayor impacto inmediato generalmente viene de conectar lo que ya existe: anuncios → chatbot → CRM. La integración entre sistemas muchas veces genera más resultado que añadir herramientas nuevas.</p>",
+        "sources": [
+          { "title": "McKinsey - The B2B Digital Imperative", "url": "https://www.mckinsey.com" },
+          { "title": "Gartner - Sales Technology", "url": "https://www.gartner.com" }
+        ]
+      },
+      "logoIdentidadeVisualPosicionamento": {
+        "title": "Logo e identidad visual: posicionamiento de marca en 2026",
+        "excerpt": "Una marca fuerte comunica valores, diferencia de la competencia y genera confianza. Entienda cómo logo e identidad visual sustentan el posicionamiento.",
+        "content": "<p>En 2026, la identidad visual dejó de ser solo estética: es un activo estratégico que comunica posicionamiento, valores y diferenciación. En el segmento de vestuario, donde la decisión de compra es emocional y la competencia es intensa, una marca coherente y reconocible hace la diferencia entre ser recordado o ignorado. Nielsen<sup>[1]</sup> refuerza que la consistencia de marca aumenta recall y confianza.</p><p>El logotipo es el punto de partida, pero la identidad visual abarca paleta de colores, tipografía, lenguaje visual y aplicaciones en diferentes soportes — del e-commerce al material de punto de venta. La consistencia garantiza que el cliente reconozca la marca en cualquier canal. Interbrand<sup>[2]</sup> destaca que las marcas más valiosas invierten en identidad unificada.</p><p>El proceso de creación debe considerar el público objetivo, la propuesta de valor y el contexto competitivo. Una marca premium exige tratamiento visual distinto de una marca joven y accesible; lo mismo vale para B2B versus B2C. El briefing debe capturar esencia, tono de voz y diferenciales.</p><p>Etapas del proyecto: briefing e investigación de mercado; concepto y dirección creativa; desarrollo de logo y variaciones; aplicación en mockups (papelería, sitio, empaque); manual de marca con reglas de uso. Criterios de evaluación: memorabilidad, escalabilidad, adecuación al segmento.</p><p>Tendencias 2026: minimalismo con personalidad, versiones simplificadas para favicon e íconos de app, adaptación para formatos digitales (stories, Reels). La identidad debe funcionar en 16px y en outdoor. Mantenimiento a lo largo del tiempo evita fragmentación cuando la empresa crece.</p>",
+        "sources": [
+          { "title": "Nielsen - Brand Consistency", "url": "https://www.nielsen.com" },
+          { "title": "Interbrand - Best Global Brands", "url": "https://www.interbrand.com" }
+        ]
+      },
+      "whatsappBusinessApiAutomacao2026": {
+        "title": "WhatsApp Business API: automatización completa en 2026",
+        "excerpt": "La API oficial de WhatsApp permite escalar atención, cualificar leads y automatizar flujos. Vea lo que cambió en 2026.",
+        "content": "<p>La WhatsApp Business API es la solución oficial para empresas que necesitan atender a escala por el canal más usado. En 2026, las posibilidades de automatización se han expandido: flujos conversacionales, integración con IA, envíos proactivos dentro de la ventana de 24 horas y conexión directa con CRM y ERP. La documentación oficial<sup>[1]</sup> detalla templates, límites y buenas prácticas.</p><p>Diferente de soluciones no oficiales, la API garantiza conformidad con las políticas de WhatsApp, evitando bloqueos y manteniendo la cuenta en buena reputación. La inversión en una solución adecuada reduce riesgos operacionales y permite escalar con seguridad. Meta for Developers<sup>[2]</sup> ofrece Cloud API y On-Premises para diferentes necesidades.</p><p>Los casos de uso van más allá de la atención reactiva: cualificación de leads, confirmación de pedidos, recordatorios de carrito abandonado, investigación de satisfacción e incluso ventas asistidas por chatbot. La clave es diseñar flujos que resuelvan el problema del cliente sin frustrarlo con respuestas genéricas.</p><p>Arquitectura: proveedor de solución (BSP) o Cloud API directa; servidor de aplicación; integración con CRM/ERP. La elección del proveedor impacta costos, soporte y recursos. Los mensajes deben ser claros, objetivos y dentro de la ventana de 24h para respuestas a mensajes iniciados por el usuario.</p><p>Los costos varían por modelo (conversación, notificación) y país. Estrategias de warm-up: comenzar con volumen bajo, evitar mensajes genéricos, priorizar respuestas de calidad. Métricas: tasa de entrega, tiempo de respuesta, tasa de resolución. Concluimos con guía de implementación: aprobación de cuenta, configuración, integración y go-live.</p>",
+        "sources": [
+          { "title": "WhatsApp Business API - Documentación oficial", "url": "https://developers.facebook.com/docs/whatsapp" },
+          { "title": "Meta for Developers - Cloud API", "url": "https://developers.facebook.com" }
+        ]
+      },
+      "crmPipelineVendasGestaoLeads": {
+        "title": "CRM y pipeline de ventas: gestión de leads en 2026",
+        "excerpt": "Organice contactos, acompañe etapas del embudo y aumente la productividad del equipo con un CRM bien configurado.",
+        "content": "<p>Un CRM bien configurado centraliza contactos, historial de interacciones y etapas del embudo, permitiendo que el equipo de ventas priorice los leads más calientes y no pierda oportunidades por falta de follow-up. En 2026, la integración del CRM con canales de adquisición — anuncios, sitio, WhatsApp — se ha vuelto estándar para empresas que buscan eficiencia. El State of Sales de Salesforce<sup>[1]</sup> muestra que empresas con CRM integrado convierten 2x más leads.</p><p>El pipeline visual facilita la identificación de cuellos de botella: dónde los leads se traban, cuánto tiempo permanecen en cada etapa y cuál la tasa de conversión entre etapas. Esos datos orientan ajustes en procesos, entrenamiento e incluso en la oferta comercial. HubSpot<sup>[2]</sup> recomienda pipelines con 4-7 etapas para B2B.</p><p>La gestión de leads incluye cualificación (scoring), distribución automática o manual, y reglas de acompañamiento. Leads que no responden en X días pueden ser reactivados por campañas automatizadas; leads cualificados pueden recibir prioridad en la fila del vendedor.</p><p>Estructura del pipeline B2B: Lead → MQL → SQL → Oportunidad → Negociación → Cerrado. Campos esenciales: origen, score, último contacto, próxima acción. La integración WhatsApp-CRM registra conversaciones automáticamente en el historial del contacto.</p><p>El CRM no puede volverse depósito de datos: defina responsables por cada etapa, SLA de follow-up y criterios de descalificación. Datos obsoletos contaminan reportes y dificultan decisiones.</p><p>LGPD: almacene solo datos necesarios, obtenga consentimiento para marketing, documente base legal. El derecho al olvido exige proceso de exclusión. Métricas: velocidad del embudo, tasa de conversión por etapa, tiempo medio de ciclo. Concluimos que un CRM bien usado es palanca de crecimiento.</p>",
+        "sources": [
+          { "title": "Salesforce - State of Sales Report", "url": "https://www.salesforce.com" },
+          { "title": "HubSpot - CRM Best Practices", "url": "https://www.hubspot.com" }
+        ]
+      },
+      "landingPagesAltaConversao": {
+        "title": "Landing pages de alta conversión en 2026",
+        "excerpt": "Páginas enfocadas en una única acción convierten más. Aprenda los principios de copy, diseño y estructura que aumentan conversiones.",
+        "content": "<p>Las landing pages son páginas enfocadas en una única acción — registro, descarga, agendamiento o compra. En 2026, la competencia por atención exige que cada elemento de la página trabaje a favor de la conversión: headline clara, beneficios en evidencia, prueba social, formulario reducido y call-to-action irresistible. Unbounce<sup>[1]</sup> publica benchmarks anuales de conversión por industria.</p><p>El copy debe hablar el lenguaje del visitante, abordar objeciones y crear urgencia sin exageros. Headlines que prometen resultado específico tienden a performar mejor que mensajes genéricos. La estructura AIDA (Atención, Interés, Deseo, Acción) sigue válida, adaptada al comportamiento de lectura en pantallas. CXL<sup>[2]</sup> destaca que copy orientado a beneficios supera copy orientado a features.</p><p>El diseño debe guiar la mirada hacia el CTA, evitar distracciones y cargar rápido. En mobile, que representa la mayor parte del tráfico en muchas campañas, la experiencia debe ser fluida y el formulario debe tener el mínimo de campos necesarios. Cada campo adicional reduce conversión 5-10%.</p><p>Anatomía: hero con headline y subheadline; beneficios en bullets o íconos; prueba social (testimonios, logos, números); formulario con 3-5 campos; CTA en destaque; FAQ para objeciones. Pruebas A/B en headline, CTA y formulario suelen generar ganancias de 20-50%.</p><p>Integración con analytics (eventos de conversión) y CRM (lead automático) es esencial. Errores comunes: muchas opciones, CTA genérico (\"Enviar\"), falta de prueba social, página lenta. Herramientas: Unbounce, Instapage, Leadpages para creación; VWO o Google Optimize para pruebas. Concluimos que landing page optimizada es activo de adquisición.</p>",
+        "sources": [
+          { "title": "Unbounce - Landing Page Benchmarks", "url": "https://unbounce.com" },
+          { "title": "CXL - Conversion Optimization", "url": "https://cxl.com" }
+        ]
+      },
+      "sistemasSobDemandaQuandoInvestir": {
+        "title": "Sistemas bajo demanda: cuándo y por qué invertir",
+        "excerpt": "Las soluciones listas no siempre atienden necesidades específicas. Entienda cuándo un sistema customizado vale la inversión.",
+        "content": "<p>Las soluciones listas atienden bien procesos estándar, pero negocios con flujos únicos — integración entre ERP, CRM y WhatsApp, automatización de procesos comerciales, consulta de CNPJ en tiempo real — frecuentemente necesitan sistemas bajo demanda. En 2026, la madurez de APIs, low-code y herramientas de integración redujo el costo y el tiempo de desarrollo, tornando proyectos customizados más accesibles. Gartner<sup>[1]</sup> apunta al low-code como tendencia de crecimiento en desarrollo empresarial.</p><p>La inversión en un sistema bajo demanda tiene sentido cuando: (1) procesos críticos dependen de planillas y trabajo manual; (2) integraciones entre herramientas son inexistentes o frágiles; (3) soluciones listas no cubren casos de uso específicos de su negocio; (4) la escala o la complejidad justifican el retorno sobre la inversión.</p><p>El proceso involucra mapeo de requisitos, definición de alcance, desarrollo iterativo y pruebas. Un buen socio entrega en sprints, permitiendo validación continua y ajustes antes del lanzamiento final. MuleSoft<sup>[2]</sup> destaca que APIs bien diseñadas son la base para integraciones sustentables.</p><p>Priorice demandas por impacto en el negocio y esfuerzo de implementación. Evite scope creep: congele requisitos por sprint. Mantenimiento y documentación garantizan que el sistema evolucione sin volverse legado. Casos de uso en vestuario: gestión de representantes, integración de canales de venta, automatización posventa. Concluimos que sistemas bajo demanda son inversión estratégica cuando bien planeados.</p>",
+        "sources": [
+          {
+            "title": "Gartner",
+            "url": "https://www.gartner.com"
+          },
+          {
+            "title": "MuleSoft",
+            "url": "https://www.mulesoft.com"
+          }
+        ]
+      },
+      "estrategiaNegociosDigitais": {
+        "title": "Estrategia de negocios digitales en 2026",
+        "excerpt": "Mercado, público y competencia evolucionan rápido. Una estrategia clara alinea marketing, ventas y operación.",
+        "content": "<p>Una estrategia de negocios digitales conecta objetivos de negocio con tácticas de marketing, ventas y operación. En 2026, la fragmentación de canales, el cambio de comportamiento del consumidor y la evolución de la competencia exigen revisión periódica — no un plan estático hecho una vez al año. McKinsey<sup>[1]</sup> y BCG<sup>[2]</sup> refuerzan que la transformación digital exige estrategia alineada al negocio.</p><p>El punto de partida es el entendimiento del mercado: tamaño, tendencias, barreras de entrada. A continuación, el mapeo del público: quién compra, qué dolores, dónde busca información, cómo decide. El análisis competitivo revela posicionamientos ocupados y lagunas que su marca puede llenar.</p><p>Con ese diagnóstico, se definen objetivos SMART, estrategias por canal y métricas de acompañamiento. El plan debe ser flexible para incorporar aprendizajes de campañas y cambios de mercado, pero estructurado para evitar dispersión.</p><p>Frameworks como SWOT, Porter y Canvas ayudan a estructurar el pensamiento. Herramientas de análisis de mercado (datos de sector, tendencias) alimentan el diagnóstico. Briefs ejecutables traducen estrategia en acciones para marketing y ventas. Revisión trimestral para tácticas, anual para posicionamiento. Concluimos con template de documento estratégico.</p>",
+        "sources": [
+          {
+            "title": "McKinsey",
+            "url": "https://www.mckinsey.com"
+          },
+          {
+            "title": "BCG",
+            "url": "https://www.bcg.com"
+          }
+        ]
+      },
+      "otimizacaoCampanhasAdsPerformance": {
+        "title": "Optimización de campañas Ads Performance en 2026",
+        "excerpt": "Datos, pruebas y optimización continua maximizan el retorno de campañas. Vea las prácticas que hacen la diferencia.",
+        "content": "<p>Las campañas de anuncios performan mejor cuando hay proceso sistemático de análisis, prueba y ajuste. En 2026, las plataformas ofrecen cada vez más automatización — Advantage+, Performance Max, campañas inteligentes — pero el gestor que entiende métricas, segmentación y creativos sigue esencial para extraer el máximo del presupuesto. Google Ads<sup>[1]</sup> y Meta Business<sup>[2]</sup> publican guías de mejores prácticas actualizadas.</p><p>Las métricas prioritarias dependen del objetivo: para leads, costo por lead y calidad del lead; para ventas, ROAS y LTV; para awareness, CPM y alcance. Definir KPIs claros evita optimizar para el indicador equivocado.</p><p>Pruebas A/B en creativos, headlines, públicos y ofertas permiten identificar lo que funciona. La disciplina de documentar resultados y escalar ganadores separa gestores amateurs de profesionales. Rutina semanal: revisar campañas, pausar underperformers, escalar ganadores, probar nuevas hipótesis.</p><p>Integración con atribución y CRM conecta inversión en medios a resultados de negocio. Dashboards consolidados evitan análisis fragmentado. Concluimos con checklist de optimización semanal y criterios para decisiones de presupuesto.</p>",
+        "sources": [
+          {
+            "title": "Google Ads",
+            "url": "https://support.google.com/google-ads"
+          },
+          {
+            "title": "Meta",
+            "url": "https://www.facebook.com/business"
+          }
+        ]
+      },
+      "midiaOnOffCampanhasIntegradas": {
+        "title": "Medios On y Off: campañas integradas en 2026",
+        "excerpt": "Estrategias digitales y presenciales se refuerzan. Planee campañas que conectan canales para mayor impacto.",
+        "content": "<p>En 2026, la división rígida entre medios online y offline tiene cada vez menos sentido. El consumidor navega entre pantallas y puntos de venta; campañas que conversan entre sí — mismo mensaje, misma estética, mismo período — generan más recall y conversión que acciones aisladas. WARC<sup>[1]</sup> e IAB<sup>[2]</sup> destacan el crecimiento del media mix modeling para planeamiento integrado.</p><p>Medios off incluyen outdoor, radio, TV, impresos, punto de venta y eventos. Medios on incluyen anuncios en redes sociales, buscadores, display y alianzas digitales. La integración puede ser por tema (lanzamiento de colección), por período (Black Friday) o por público (geolocalización + digital para refuerzo).</p><p>El planeamiento integrado considera presupuesto, alcance de cada canal, frecuencia y mensaje. En muchos casos, lo digital complementa lo off con retargeting, conversión y medición; lo off amplía el alcance y la credibilidad en mercados donde la presencia física aún es fuerte.</p><p>Atribución entre canales exige datos unificados y modelos que consideren el papel de cada touchpoint. Casos en vestuario: lanzamientos con outdoor + digital, ferias con retargeting pos-evento. Métricas unificadas y alineamiento entre medios y trade marketing. Concluimos que integración on/off es diferencial competitivo.</p>",
+        "sources": [
+          {
+            "title": "WARC",
+            "url": "https://www.warc.com"
+          },
+          {
+            "title": "IAB",
+            "url": "https://www.iab.com"
+          }
+        ]
+      },
+      "adtechDataDecisoes2026": {
+        "title": "AdTech y Data: decisiones basadas en datos en 2026",
+        "excerpt": "Tecnología y análisis de datos permiten entender comportamiento, optimizar campañas y apoyar decisiones estratégicas.",
+        "content": "<p>AdTech y Data se refieren al uso de tecnología y análisis de datos para entender el comportamiento del público, optimizar campañas y apoyar decisiones estratégicas. En 2026, la disponibilidad de datos de primera, segunda y tercera parte — combinada con herramientas de análisis e IA — permite personalización y eficiencia en niveles antes imposibles. IAB<sup>[1]</sup> y el Privacy Sandbox de Google<sup>[2]</sup> orientan la evolución en privacidad y datos.</p><p>Los datos de primera parte (sitio, CRM, WhatsApp) son los más valiosos: pertenecen a la empresa y reflejan comportamiento real. Datos de segunda parte vienen de socios; datos de tercera parte, de agregadores. La combinación enriquece la segmentación y el retargeting.</p><p>Herramientas de DMP, CDP, analytics y dashboards permiten consolidar fuentes, crear segmentos y acompañar performance. La gobernanza de datos — LGPD, consentimiento, seguridad — es prerrequisito para usar datos de forma sustentable.</p><p>Stack típica para medianas empresas: analytics (GA4), CRM, CDP o herramienta de segmentación. Evite sesgo de atribución y sobredosis de métricas — enfoque en KPIs que impactan negocio. Tendencias 2026: cookieless, estrategia first-party data, IA en análisis predictivo. Concluimos que datos bien gobernados son ventaja competitiva.</p>",
+        "sources": [
+          {
+            "title": "IAB",
+            "url": "https://www.iab.com"
+          },
+          {
+            "title": "Privacy Sandbox",
+            "url": "https://privacysandbox.com"
+          }
+        ]
+      },
+      "experienciaClienteFidelizacao": {
+        "title": "Experiencia del cliente y fidelización en 2026",
+        "excerpt": "Relacionamiento, automatización y fidelización aumentan el valor del cliente a lo largo del tiempo.",
+        "content": "<p>La experiencia del cliente abarca todos los puntos de contacto — desde el primer anuncio hasta la posventa. En 2026, empresas que invierten en jornada integrada, atención ágil y programas de fidelidad tienden a retener más clientes y aumentar el valor vitalicio (LTV). Zendesk<sup>[1]</sup> y Qualtrics<sup>[2]</sup> publican reportes anuales de tendencias en CX.</p><p>La fidelización no es solo programa de puntos: es consistencia en la entrega, resolución rápida de problemas, comunicación proactiva y reconocimiento. El cliente que se siente valorado compra de nuevo e indica la marca.</p><p>CRM y herramientas de experiencia permiten segmentar clientes por valor, comportamiento y etapa de la jornada. Campañas de reactivación, upsell y cross-sell pueden ser automatizadas con base en reglas y gatillos.</p><p>Estructura de programa CX: mapeo de jornada, métricas (NPS, CSAT, LTV), integración atención-marketing-ventas para visión 360°. Casos en vestuario: posventa, fidelidad para representantes, comunicación personalizada. Concluimos que experiencia es diferencial de retención.</p>",
+        "sources": [
+          {
+            "title": "Zendesk",
+            "url": "https://www.zendesk.com"
+          },
+          {
+            "title": "Qualtrics",
+            "url": "https://www.qualtrics.com"
+          }
+        ]
+      },
+      "provadorVirtualRoiImplementacao": {
+        "title": "Probador Virtual: ROI e implementación en 2026",
+        "excerpt": "Cómo medir el retorno del probador virtual y planear una implementación exitosa.",
+        "content": "<p>El Probador Virtual genera valor cuando reduce devoluciones, aumenta conversión y diferencia la marca. En 2026, empresas que implementaron la solución reportan ROI positivo en plazos de 6 a 12 meses, dependiendo del volumen de tráfico y de la adopción por los clientes. Baymard<sup>[1]</sup> y Shopify<sup>[2]</sup> documentan impacto de UX en e-commerce de moda.</p><p>El cálculo de ROI considera: reducción porcentual de devoluciones (y costo asociado), aumento en la tasa de conversión del e-commerce, impacto en el ticket medio (clientes que experimentan tienden a comprar más prendas) y valor de marca (diferencial competitivo y menciones en redes sociales).</p><p>La implementación involucra integración técnica con el e-commerce, preparación del catálogo (fotos y datos de las prendas), configuración de la experiencia (flujo del usuario, calidad de la visualización) y divulgación para que los clientes conozcan la herramienta.</p><p>Criterios técnicos: resolución, ángulos, compatibilidad mobile. Etapas: integración, preparación de catálogo, configuración, pruebas con usuarios, lanzamiento. Métricas: adopción, satisfacción, impacto en conversión y devoluciones. Concluimos que ROI se materializa con tráfico y divulgación adecuados.</p>",
+        "sources": [
+          {
+            "title": "Baymard",
+            "url": "https://baymard.com"
+          },
+          {
+            "title": "Shopify",
+            "url": "https://www.shopify.com"
+          }
+        ]
+      },
+      "iaGenerativaAtendimentoCliente": {
+        "title": "IA generativa en la atención al cliente en 2026",
+        "excerpt": "Los modelos de lenguaje transforman chatbots y asistentes virtuales. Vea lo que funciona en la práctica.",
+        "content": "<p>En 2026, la IA generativa ha revolucionado la atención al cliente: chatbots que entienden contexto, generan respuestas naturales y pueden ser entrenados en el conocimiento de la empresa. La tecnología reduce costo por atención y permite escala 24h, pero exige cuidado con alucinaciones, tono de voz y handoff a humanos. Gartner<sup>[1]</sup> y Forrester<sup>[2]</sup> destacan el crecimiento de la IA generativa en customer service.</p><p>Los modelos de lenguaje pueden ser usados para: respuestas automáticas a preguntas frecuentes, generación de sugerencias de productos, resumen de conversaciones para el vendedor, e incluso atención en múltiples idiomas sin necesidad de traducción manual.</p><p>La implementación requiere base de conocimiento actualizada, pruebas extensivas y monitoreo de calidad. Respuestas incorrectas o inadecuadas perjudican la experiencia y la reputación de la marca.</p><p>Arquitecturas: reglas simples, NLU + intents, modelos fine-tuned. Gobernanza y revisión humana son esenciales. Tendencias 2026: agentes autónomos, integración con sistemas internos, equilibrio automatización-toque humano. Concluimos que IA generativa exige estrategia y gobernanza.</p>",
+        "sources": [
+          {
+            "title": "Gartner",
+            "url": "https://www.gartner.com"
+          },
+          {
+            "title": "Forrester",
+            "url": "https://www.forrester.com"
+          }
+        ]
+      },
+      "croOtimizacaoConversaoSites": {
+        "title": "CRO: optimización de conversión en sitios en 2026",
+        "excerpt": "Aumente conversiones sin aumentar tráfico. Pruebas, análisis y mejoras continuas en el sitio.",
+        "content": "<p>CRO (Conversion Rate Optimization) es la práctica de mejorar la tasa de conversión de un sitio a través de pruebas, análisis de comportamiento y ajustes iterativos. En 2026, con el costo de adquisición en alta, convertir mejor el tráfico existente es muchas veces más eficiente que simplemente aumentar la inversión en medios. CXL<sup>[1]</sup> y Hotjar<sup>[2]</sup> son referencias en optimización y análisis de comportamiento.</p><p>El proceso involucra: análisis de datos (dónde los visitantes abandonan, qué páginas convierten menos), formulación de hipótesis (qué puede estar causando el problema), creación de variaciones (nuevo headline, nuevo CTA, nuevo layout) y pruebas A/B o multivariadas para validar.</p><p>Herramientas de heatmap, grabación de sesiones y embudo de conversión ayudan a identificar cuellos de botella. La optimización puede enfocarse en landing pages, página de producto, carrito, checkout o formularios de lead.</p><p>Priorice pruebas por impacto esperado y esfuerzo. Con poco tráfico, enfoque en elementos de alto impacto (headline, CTA). Errores comunes: probar elementos irrelevantes, ignorar segmentos. Concluimos que CRO es inversión de alto retorno cuando metodológico.</p>",
+        "sources": [
+          {
+            "title": "CXL",
+            "url": "https://cxl.com"
+          },
+          {
+            "title": "Hotjar",
+            "url": "https://www.hotjar.com"
+          }
+        ]
+      },
+      "integracaoPlataformasErpCrmWhatsapp": {
+        "title": "Integración de plataformas: ERP, CRM y WhatsApp en 2026",
+        "excerpt": "Conecte sistemas para eliminar retrabajo, automatizar flujos y tener visión unificada de los datos.",
+        "content": "<p>Empresas que operan con ERP, CRM, WhatsApp y e-commerce en silos pierden eficiencia: datos duplicados, retrabajo manual y visión fragmentada. En 2026, la integración entre plataformas se ha vuelto accesible vía APIs, middleware y herramientas low-code, permitiendo que pedidos, clientes y conversaciones fluyan entre sistemas automáticamente. Zapier<sup>[1]</sup> y Make<sup>[2]</sup> son líderes en automatización e integración.</p><p>La integración ERP-CRM sincroniza datos de clientes, pedidos y stock. La integración CRM-WhatsApp permite que conversaciones sean registradas en el historial del cliente y que envíos sean personalizados con base en el estadio del embudo. La integración e-commerce-ERP garantiza que pedidos online entren en el flujo operacional sin digitación manual.</p><p>El proyecto de integración debe mapear flujos de datos, definir responsabilidades de cada sistema (fuente de verdad) y considerar seguridad, performance y mantenimiento. Integraciones mal diseñadas se vuelven pesadilla de mantenimiento.</p><p>Arquitecturas: point-to-point, middleware, iPaaS. Herramientas: Zapier y Make para escenarios simples; MuleSoft y similares para enterprise. Documentación y monitoreo son críticos. Roadmap: priorice flujos de mayor impacto. Concluimos que integración bien hecha elimina cuellos de botella operacionales.</p>",
+        "sources": [
+          {
+            "title": "Zapier",
+            "url": "https://zapier.com"
+          },
+          {
+            "title": "Make",
+            "url": "https://www.make.com"
+          }
+        ]
+      },
+      "brandingSegmentoVestuario": {
+        "title": "Branding para el segmento de vestuario en 2026",
+        "excerpt": "Marcas de moda y vestuario necesitan identidad coherente en todos los puntos de contacto. Vea las tendencias.",
+        "content": "<p>En el segmento de vestuario, la marca comunica posicionamiento, estilo y valores. En 2026, el consumidor exige coherencia entre tienda física, e-commerce, redes sociales y material de representantes. Una identidad fragmentada genera desconfianza; una identidad fuerte genera reconocimiento y preferencia. McKinsey<sup>[1]</sup> y Business of Fashion<sup>[2]</sup> analizan tendencias del sector.</p><p>El branding abarca nombre, logo, colores, tipografía, lenguaje visual y tono de voz. En vestuario, la estética debe reflejar el público objetivo: casual, premium, deportivo, sustentable. La consistencia en catálogos, empaques, etiquetas y puntos de venta refuerza la percepción de calidad.</p><p>Tendencias de 2026 incluyen: minimalismo con personalidad, sustentabilidad como valor de marca, adaptación para formatos digitales (stories, Reels) y colaboraciones que amplían el alcance. Marcas que invierten en contenido y comunidad fortalecen el vínculo más allá de la transacción.</p><p>Proceso de construcción: diagnóstico, posicionamiento, identidad visual, aplicaciones. Reposicionamiento exige cuidado para no perder audiencia actual. Branding y performance en digital pueden coexistir con consistencia. Mantenimiento en expansión: nuevas líneas y canales sin perder esencia. Concluimos que branding es inversión de largo plazo.</p>",
+        "sources": [
+          {
+            "title": "McKinsey",
+            "url": "https://www.mckinsey.com"
+          },
+          {
+            "title": "BoF",
+            "url": "https://www.businessoffashion.com"
+          }
+        ]
+      },
+      "atribuicaoConversoesCampanhasDigitais": {
+        "title": "Atribución de conversiones en campañas digitales en 2026",
+        "excerpt": "Entienda qué canal y qué anuncio generaron la conversión. Modelos de atribución y herramientas.",
+        "content": "<p>La atribución de conversiones responde a la pregunta: ¿qué canal, campaña o anuncio contribuyó a la venta o lead? En 2026, con jornadas multicanal y ventanas de conversión largas, la respuesta no es trivial. Modelos simplistas (último clic) pueden subestimar el papel de canales de tope; modelos complejos exigen datos y configuración. Google Analytics<sup>[1]</sup> y Meta<sup>[2]</sup> ofrecen atribución nativa e insights.</p><p>Modelos comunes: último clic (100% para el último contacto), primer clic (100% para el primero), lineal (división igual entre todos los toques), basado en tiempo (más peso para contactos recientes) y basado en datos (modelos algorítmicos que aprenden del historial).</p><p>Para negocios con ciclo largo, la integración con CRM y datos offline es esencial para conectar anuncios a ventas reales. Cada modelo tiene pros y contras; evite optimización prematura con datos insuficientes.</p><p>Tendencias 2026: atribución cookieless, first-party data, modelos de incrementabilidad. Concluimos que atribución bien configurada orienta decisiones de presupuesto con más precisión.</p>",
+        "sources": [
+          {
+            "title": "Google Analytics",
+            "url": "https://support.google.com/analytics"
+          },
+          {
+            "title": "Meta",
+            "url": "https://www.facebook.com/business"
+          }
+        ]
+      },
+      "funilVendasB2bQualificacaoLeads": {
+        "title": "Embudo de ventas B2B y cualificación de leads en 2026",
+        "excerpt": "Estructure el embudo, cualifique leads y aumente la eficiencia del equipo comercial.",
+        "content": "<p>En ventas B2B, el embudo es más largo e involucra múltiples decisores. La cualificación de leads — identificar quién tiene budget, autoridad, necesidad y timing (BANT) — evita que el equipo pierda tiempo con prospects que no van a cerrar. En 2026, herramientas de enrichment, scoring y automatización tornan la cualificación más precisa y escalable. HubSpot<sup>[1]</sup> y Gong<sup>[2]</sup> son referencias en gestión B2B y revenue intelligence.</p><p>El embudo típico incluye: lead (contacto inicial), MQL (lead cualificado por marketing), SQL (lead cualificado por ventas), oportunidad (negociación en andamiento) y cliente (cerrado). Cada etapa exige criterios claros y acciones definidas.</p><p>El lead scoring atribuye puntos con base en comportamiento (descargas, páginas visitadas) y datos (cargo, empresa, tamaño). Leads arriba del threshold son encaminados a ventas; abajo, permanecen en nurturance hasta madurar.</p><p>Metodologías: BANT, CHAMP, MEDDIC. Integración marketing-ventas: SLA de follow-up, definición de lead cualificado. Métricas: velocidad del embudo, tasa de conversión por etapa. Checklist periódico para salud del embudo. Concluimos que cualificación bien hecha aumenta eficiencia del equipo comercial.</p>",
+        "sources": [
+          {
+            "title": "HubSpot",
+            "url": "https://www.hubspot.com"
+          },
+          {
+            "title": "Gong",
+            "url": "https://www.gong.io"
+          }
+        ]
       }
     }
   },

@@ -23,6 +23,8 @@ export function BlogPost() {
   const title = t(`blog.posts.${i18nKey}.title`)
   const excerpt = t(`blog.posts.${i18nKey}.excerpt`)
   const content = t(`blog.posts.${i18nKey}.content`)
+  const sources = t(`blog.posts.${i18nKey}.sources`, { returnObjects: true })
+  const hasSources = Array.isArray(sources) && sources.length > 0
   const url = typeof window !== 'undefined' ? window.location.href : ''
 
   return (
@@ -37,6 +39,20 @@ export function BlogPost() {
           <img src={post.image || '/vite.svg'} alt={title} />
         </div>
         <div className="post-content" dangerouslySetInnerHTML={{ __html: content }} />
+        {hasSources && (
+          <section className="post-sources">
+            <h3 className="post-sources-title">{t('blog.sourcesLabel')}</h3>
+            <ol className="post-sources-list">
+              {sources.map((source, idx) => (
+                <li key={idx}>
+                  <a href={source.url} target="_blank" rel="noopener noreferrer">
+                    {source.title}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
         <div className="post-share">
           <SocialShare url={url} title={title} description={excerpt} />
         </div>

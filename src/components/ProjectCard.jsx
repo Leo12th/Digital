@@ -1,14 +1,16 @@
-import { SocialShare } from './SocialShare'
+import { MessageCircle } from 'lucide-react'
 import { PROJECT_SLUG_TO_I18N } from '../data/projects'
 
-export function ProjectCard({ project, t, title, description, image, tags = [], slug, url }) {
+const WHATSAPP_PHONE = '5555984553553'
+
+export function ProjectCard({ project, t, title, description, image, tags = [], slug, url, variant = 'portfolio' }) {
   const i18nKey = project ? PROJECT_SLUG_TO_I18N[project.slug] : null
   const displayTitle = project && t ? t(`projects.${i18nKey}.title`) : title
   const displayDesc = project && t ? t(`projects.${i18nKey}.description`) : description
   const displayTags = project && t ? t(`projects.${i18nKey}.tags`, { returnObjects: true }) : tags
   const displayImage = project?.image || image
-  const displaySlug = project?.slug || slug
-  const shareUrl = url || (typeof window !== 'undefined' ? `${window.location.origin}/projetos/${displaySlug}` : '')
+  const consultMessage = t ? t('projects.consultMessage', { project: displayTitle }) : `Olá! Gostaria de consultar orçamento para o projeto: ${displayTitle}`
+  const whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(consultMessage)}`
 
   return (
     <article className="project-card">
@@ -21,7 +23,17 @@ export function ProjectCard({ project, t, title, description, image, tags = [], 
         </div>
         <h3 className="project-title">{displayTitle}</h3>
         <p className="project-desc">{displayDesc}</p>
-        <SocialShare url={shareUrl} title={displayTitle} compact />
+        {variant === 'projects' && (
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-consult-btn project-consult-btn--accent"
+          >
+            <MessageCircle size={18} />
+            {t ? t('projects.consult') : 'Consultar'}
+          </a>
+        )}
       </div>
     </article>
   )

@@ -1,20 +1,14 @@
-import { useState, useMemo } from 'react'
+import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import { BlogCard, Pagination } from '../components'
+import { BlogCard } from '../components'
 import { posts, POST_SLUG_TO_I18N } from '../data/posts'
-
-const ITEMS_PER_PAGE = 6
 
 export function Blog() {
   const { t } = useTranslation()
-  const [page, setPage] = useState(1)
 
-  const paginated = useMemo(() => {
-    const start = (page - 1) * ITEMS_PER_PAGE
-    return posts.slice(start, start + ITEMS_PER_PAGE)
-  }, [page])
-
-  const totalPages = Math.ceil(posts.length / ITEMS_PER_PAGE)
+  const sortedPosts = useMemo(() => {
+    return [...posts].sort((a, b) => (b.date > a.date ? 1 : -1))
+  }, [])
 
   return (
     <section className="section section-page-bg">
@@ -24,7 +18,7 @@ export function Blog() {
         <p className="section-subtitle">{t('blog.subtitle')}</p>
 
         <div className="blog-grid">
-          {paginated.map(post => {
+          {sortedPosts.map(post => {
             const i18nKey = POST_SLUG_TO_I18N[post.slug]
             return (
               <BlogCard
@@ -39,8 +33,6 @@ export function Blog() {
             )
           })}
         </div>
-
-        <Pagination currentPage={page} totalPages={totalPages} onPageChange={setPage} />
       </div>
     </section>
   )

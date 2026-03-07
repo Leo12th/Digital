@@ -1,19 +1,24 @@
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  align-items: stretch;
+}
+
+.blog-grid .blog-card {
+  height: 100%;
 }
 
 .filter-bar {
@@ -265,12 +270,64 @@
 }
 
 .post-content {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.8;
 }
 
 .post-content p {
+  margin-bottom: 1.25rem;
+}
+
+.post-content sup {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.post-sources {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.post-sources-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
   margin-bottom: 1rem;
+}
+
+.post-sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: sources;
+}
+
+.post-sources-list li {
+  counter-increment: sources;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.post-sources-list li::before {
+  content: '[' counter(sources) ']';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.post-sources-list a {
+  color: var(--text-secondary);
+  transition: color 0.25s ease;
+}
+
+.post-sources-list a:hover {
+  color: var(--accent);
 }
 
 .post-share {
@@ -280,6 +337,12 @@
 }
 
 @media (max-width: 768px) {
+  .services-grid,
+  .projects-grid,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
   .contact-page .contact-grid {
     grid-template-columns: 1fr;
   }

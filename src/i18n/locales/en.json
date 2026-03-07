@@ -25,7 +25,10 @@
     "heroSubtitle2": "Large businesses",
     "heroDescription": "We create and perfect technologies focused on communication, marketing, commercial and sales promotion in the clothing segment.",
     "cta": "Get in touch",
-    "seeServices": "Discover our services"
+    "seeServices": "Discover our services",
+    "seePortfolio": "View full portfolio",
+    "seeProjects": "View all projects",
+    "seeBlog": "View all articles"
   },
   "about": {
     "title": "About Us",
@@ -36,28 +39,50 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Technologies for communication, marketing and sales in the clothing segment",
-    "virtualFitting": {
-      "title": "Virtual Fitting Room",
-      "desc": "Your client sends a photo, selects the outfit, and our virtual fitting room shows the fit and details on their body."
+    "subtitle": "Integrated solutions to boost your business",
+    "logoIdentity": {
+      "title": "Logo and Visual Identity Creation",
+      "desc": "We create brands that convey identity, professionalism and positioning. We develop logo, color palette, typography and visual elements to ensure consistency and brand recognition."
     },
-    "fitting360": {
-      "title": "360° Fitting Room",
-      "desc": "Besides the photo, there is the option to generate a 360° video, showing all the details of the outfit on the body."
+    "trafficManagement": {
+      "title": "Paid Traffic Management",
+      "desc": "We plan, create and optimize ad campaigns on major digital platforms to attract qualified customers and generate more leads and sales for your company."
     },
-    "cnpj": {
-      "title": "CNPJ Lookup",
-      "desc": "Quickly look up your prospect's CNPJ. Find out if the company is active, line of business and more, instantly."
+    "whatsappChatbot": {
+      "title": "AI Chatbot for WhatsApp, Website and Other Platforms",
+      "desc": "We implement intelligent AI chatbots for WhatsApp, website and other platforms. 24/7 automated customer service, lead qualification and resolution of requests without human intervention."
     },
-    "platforms": {
-      "title": "Compatible Platforms",
-      "pos": "We adapt the project for your point of sale",
-      "ecommerce": "We add the fitting room to your e-commerce",
-      "events": "Excellent attraction for event stands"
+    "leadsClients": {
+      "title": "Lead and Customer Management",
+      "desc": "We organize and track your contacts and customers through management systems that help control the sales funnel and improve relationships with your audience."
     },
-    "marketing": {
-      "title": "Digital Marketing",
-      "desc": "Google and Meta ADS, humanized chatbot, automatic sales, CRM and lead management."
+    "highConversionSites": {
+      "title": "High Conversion Websites",
+      "desc": "We develop strategic websites and landing pages focused on turning visitors into leads and customers, with modern design and conversion-optimized structure."
+    },
+    "onDemandPrograms": {
+      "title": "On-Demand Systems",
+      "desc": "We create customized systems to automate processes, integrate platforms and meet specific needs of your business."
+    },
+    "businessStrategy": {
+      "title": "Business and Strategy",
+      "desc": "We analyze market, audience and competition to develop marketing and growth strategies aligned with your company's objectives."
+    },
+    "adsPerformance": {
+      "title": "Content Production / Social Media",
+      "desc": "We create strategic content for social networks, digital presence management and organic campaigns that engage your audience and strengthen your brand."
+    },
+    "mediaOnOff": {
+      "title": "On / Off Media",
+      "desc": "We plan integrated campaigns that connect digital and in-person strategies, ensuring greater reach and communication impact."
+    },
+    "automationSystems": {
+      "title": "Automation Systems",
+      "desc": "We develop solutions that automate operational processes, integrating tools and reducing manual work for efficiency gains."
+    },
+    "systemsWithAi": {
+      "title": "Systems with A.I.",
+      "desc": "We create intelligent systems that use artificial intelligence for data analysis, predictions and automated decisions in your business."
     }
   },
   "portfolio": {
@@ -71,35 +96,55 @@
   "projects": {
     "title": "Projects",
     "subtitle": "Solutions we develop for our clients",
+    "consult": "Consult",
+    "consultMessage": "Hello! I would like to request a quote for the project: {{project}}",
     "provadorVirtualSallo": {
-      "title": "Virtual Fitting Room - Grupo Sallo",
+      "title": "Virtual Fitting Room",
       "description": "Implementation of the Virtual Fitting Room for catalog clothing try-on in 360°.",
-      "tags": ["Virtual Fitting", "Clothing"]
+      "tags": [
+        "Virtual Fitting",
+        "Clothing"
+      ]
     },
     "marketingDigitalLeads": {
       "title": "Lead Campaign - Google Ads",
       "description": "Paid traffic management focused on qualified lead generation and conversion.",
-      "tags": ["Marketing", "Google Ads"]
+      "tags": [
+        "Marketing",
+        "Google Ads"
+      ]
     },
     "chatbotWhatsapp": {
       "title": "Humanized Chatbot - WhatsApp",
       "description": "24h automated support with intelligent responses and lead qualification.",
-      "tags": ["Chatbot", "WhatsApp"]
+      "tags": [
+        "Chatbot",
+        "WhatsApp"
+      ]
     },
     "ecommerceProvador": {
       "title": "Fitting Room in E-commerce",
       "description": "Virtual Fitting Room integration in online store for differentiated shopping experience.",
-      "tags": ["Fitting Room", "E-commerce"]
+      "tags": [
+        "Fitting Room",
+        "E-commerce"
+      ]
     },
     "standEventos": {
       "title": "Event Stand - 360° Fitting Room",
       "description": "Attraction action at trade show with 360° Fitting Room for collection try-on.",
-      "tags": ["Events", "360° Fitting Room"]
+      "tags": [
+        "Events",
+        "360° Fitting Room"
+      ]
     },
     "crmGestaoLeads": {
       "title": "CRM and Lead Management",
       "description": "Customer and lead management system with sales automation.",
-      "tags": ["CRM", "Automation"]
+      "tags": [
+        "CRM",
+        "Automation"
+      ]
     }
   },
   "blog": {
@@ -108,36 +153,294 @@
     "readMore": "Read more",
     "backToBlog": "Back to blog",
     "share": "Share",
+    "sourcesLabel": "Sources",
     "posts": {
       "metaOuGoogleMelhorParaAnunciar": {
-        "title": "Meta or Google: which is better for advertising?",
-        "excerpt": "Social media advertising rules have changed. Meta launches new features every day. Find out which platform is ideal for your business.",
-        "content": "<p>Generating leads is no longer a task for those who know how to press buttons. It's for those who understand strategy.</p><p>Social media advertising rules have changed. Meta, owner of Facebook, Instagram and WhatsApp, launches new features every day.</p><p>In this article, we analyze the differences between Meta and Google Ads to help you choose the best platform for your goals.</p>"
+        "title": "Meta or Google: which is better for advertising in 2026?",
+        "excerpt": "Social media advertising rules have changed. Meta launches new features every day. Find out which platform is ideal for your business in 2026.",
+        "content": "<p>Generating leads is no longer a task for those who know how to press buttons. It's for those who understand strategy. In 2026, the paid traffic landscape has evolved rapidly: new privacy policies, changes in targeting algorithms, and the consolidation of formats like Reels and Shorts demand an integrated view. Digital ad spend is projected to exceed $600 billion globally in 2026, according to eMarketer<sup>[3]</sup>.</p><p>Social media advertising rules have changed radically. Meta, owner of Facebook, Instagram and WhatsApp, launches new features every day — from Advantage+ to integrations with generative AI for ad creation. Advantage+ Campaigns<sup>[1]</sup> lets the algorithm automatically optimize across formats, audiences, and placements, reducing manual setup work.</p><p>Google, in turn, has strengthened Performance Max<sup>[2]</sup> and expanded the use of machine learning in search and display campaigns. Performance Max campaigns combine YouTube, Display, Search, Maps, and Gmail in a single campaign, with the algorithm deciding where to allocate budget.</p><p>The fundamental difference: on Meta, users are in discovery mode (scrolling, entertainment); on Google, they're often in search mode (want to solve something now). For consideration or impulse products, Meta tends to perform well. For explicit purchase intent — \"best CRM for small businesses\" — Google Search dominates.</p><p>Cost per lead varies by vertical and region. Generally, Google leads tend to be hotter (they've already researched the problem) but more expensive. Meta leads are usually colder but higher volume and lower cost. The combination allows diversifying sources and reducing dependence on a single channel.</p><p>For B2B businesses or those with long sales cycles, combining both platforms is often more effective. Meta for awareness and consideration; Google for capturing high-intent demand. LinkedIn enters when the audience is corporate and ticket is high.</p><p>TikTok Ads has grown rapidly for young audiences and fashion, beauty, and entertainment niches. Amazon Ads is essential for e-commerce with marketplace products. The decision should consider your audience, average ticket, and main objective — awareness, consideration, or direct conversion.</p><p>Practical recommendations: start with 70% of budget on the main platform (the one that converts best for your business) and 30% testing the second. Run A/B tests on creatives, headlines, and audiences. Track metrics like CPL, CPA, ROAS, and lead quality (conversion to customer rate).</p><p>In 2026, automation has advanced, but the manager who understands metrics, segmentation, and creatives remains essential. We conclude that the choice isn't Meta or Google — it's how to strategically combine both.</p>",
+        "sources": [
+          { "title": "Meta for Business - Advantage+ Campaigns", "url": "https://www.facebook.com/business/ads" },
+          { "title": "Google Ads - Performance Max", "url": "https://ads.google.com" },
+          { "title": "eMarketer - Digital Ad Spending 2026", "url": "https://www.insiderintelligence.com" }
+        ]
       },
       "provadorVirtualEcommerce": {
         "title": "Virtual Fitting Room in E-commerce: how to increase conversions",
-        "excerpt": "The experience of trying on clothes online revolutionizes clothing e-commerce. See how to implement it.",
-        "content": "<p>The Virtual Fitting Room allows your customers to try on catalog clothes without leaving home.</p><p>Just a photo of the customer, selection of the desired piece, and our system shows the fit and details in 360°.</p><p>We add the fitting room to your e-commerce and adapt it for events and point of sale.</p>"
+        "excerpt": "The experience of trying on clothes online revolutionizes clothing e-commerce. See how to implement and measure results in 2026.",
+        "content": "<p>The Virtual Fitting Room allows your customers to try on catalog clothes without leaving home. In 2026, computer vision and AI technology has reached precision levels that significantly reduce uncertainty in online purchases — one of the main reasons for cart abandonment in clothing. The Baymard Institute<sup>[1]</sup> notes that size and fit are the main concerns in 29% of abandoned fashion purchases.</p><p>Just a photo of the customer, selection of the desired piece, and our system shows the fit and details in 360°. Integration with digital catalogs, ERP, and e-commerce platforms allows the experience to flow seamlessly from discovery to checkout. Platforms like Shopify<sup>[2]</sup> already offer APIs and native integrations for virtual try-on technologies.</p><p>Recent studies indicate that stores implementing virtual fitting rooms see a 15% to 25% reduction in returns, plus increased conversion rates and average order value. Consumers tend to add more items to cart when they can visualize the result before purchasing. In some cases, average order value increases 10% to 20%.</p><p>The process is simple: the customer takes a selfie or uses an existing photo, selects the piece from the catalog, and the system overlays the garment on the image with proportion and perspective adjustment. Deep learning technology ensures realistic fit, considering fabric type and body model.</p><p>For B2B clothing, the virtual fitting room works at trade shows and events: representatives and buyers can try the collection without needing physical samples of every piece. Reduces logistics costs and speeds purchase decisions.</p><p>We add the fitting room to your e-commerce and adapt it for events and point of sale. At trade shows, stands, and physical stores, the tool works as an experience differentiator and qualified lead capture. Visitors who try it leave contact to receive the collection link.</p><p>Technical requirements: high-resolution product photos, multiple angles when possible, and garment measurement data to calibrate the algorithm. CMS and ERP integration ensures the catalog is always up to date.</p><p>Metrics to track: fitting room usage rate (how many visitors try it), conversion impact (compare users who used vs. didn't use), return reduction, and NPS. ROI typically materializes in 6 to 12 months, depending on traffic volume.</p><p>We conclude that the virtual fitting room has moved from experimental to competitive differentiator in clothing e-commerce in 2026.</p>",
+        "sources": [
+          { "title": "Baymard Institute - E-commerce UX Research", "url": "https://baymard.com" },
+          { "title": "Shopify - Virtual Try-On Technology", "url": "https://www.shopify.com" }
+        ]
       },
       "chatbotsLimitadosAtendimento": {
         "title": "Forget limited chats",
-        "excerpt": "Limited chats rarely offer all the options your customer is looking for. Discover solutions that really deliver.",
-        "content": "<p>They rarely offer all the options your customer is looking for. This is the same as not talking to anyone.</p><p>In the end, your customer ends up frustrated, annoyed, and gets what they're looking for from another company. And doesn't buy from you.</p><p>Our humanized chatbot solves this with 24h support and high quality.</p>"
+        "excerpt": "Limited chats rarely offer all the options your customer is looking for. Discover solutions that really deliver in 2026.",
+        "content": "<p>Limited chats rarely offer all the options your customer is looking for. This is the same as not talking to anyone. In 2026, customers expect contextualized responses, intelligent routing, and resolution without repeating information. According to Zendesk research, 72% of consumers expect companies to use their information to personalize experiences<sup>[1]</sup>.</p><p>In the end, your customer ends up frustrated, annoyed, and gets what they're looking for from another company. And doesn't buy from you. The cost of a bad experience goes beyond the lost sale: it impacts NPS, reviews, and the cost of acquiring a new customer to replace the one lost. Studies indicate that acquiring a new customer costs 5 to 25 times more than retaining an existing one.</p><p>The problem with fixed menus and predefined responses is rigidity. A customer asking \"what's the delivery time to Curitiba?\" doesn't want to navigate three menu levels. They want a direct answer. The official WhatsApp Business API documentation<sup>[2]</sup> reinforces the importance of contextualized messages and fast responses to maintain conversation quality.</p><p>Our humanized chatbot solves this with 24h support and high quality. We use language models trained on your business, CRM integration, and WhatsApp Business API to scale support without losing the brand's voice. According to Gartner<sup>[3]</sup>, conversational AI is among the highest-impact technologies for customer experience in 2026.</p><p>Conversational flow architecture must anticipate handoff scenarios: when the bot can't resolve, the conversation is transferred to a human with full history. The agent receives complete context and the customer doesn't need to repeat information. This smooth transition is critical for maintaining satisfaction.</p><p>Metrics like average response time, first-contact resolution rate, and CSAT (Customer Satisfaction Score) allow tracking quality. Companies implementing well-designed chatbots report 30% to 50% reduction in ticket volume reaching the human team, freeing time for complex cases.</p><p>In lead qualification, the chatbot can ask qualification questions (BANT or similar), record answers in the CRM, and forward only hot leads to sales. The result: salespeople focus on negotiation, not triage.</p><p>In post-sale, order confirmation, delivery tracking, and satisfaction surveys can be automated. A \"Thanks for your purchase! Your order has shipped. Track here: [link]\" drastically reduces recurring questions.</p><p>Technical support also benefits: FAQs, step-by-step troubleshooting, and smart escalation. When the issue requires human intervention, the ticket arrives already categorized with preliminary information.</p><p>Automation should expand the team's capacity, not replace it rigidly. The balance between efficiency and humanization defines success. We conclude that a well-designed chatbot reduces costs and improves experience simultaneously — when done with strategy and care.</p>",
+        "sources": [
+          { "title": "Zendesk - Customer Experience Trends Report 2025", "url": "https://www.zendesk.com" },
+          { "title": "WhatsApp Business API - Official Documentation", "url": "https://developers.facebook.com/docs/whatsapp" },
+          { "title": "Gartner - Conversational AI", "url": "https://www.gartner.com" }
+        ]
       },
       "gerarLeadsEraIa": {
         "title": "Generating leads in the AI era",
-        "excerpt": "Starting and maintaining a conversation with your customer, in the shortest possible time and with high quality, is essential.",
-        "content": "<p>And generating leads is not the only problem. In the AI era, starting and maintaining a conversation with your customer, in the shortest possible time and with high quality, is essential.</p><p>Digitalize your business. Generate leads, serve and sell automatically.</p>"
+        "excerpt": "Starting and maintaining a conversation with your customer, in the shortest possible time and with high quality, is essential in 2026.",
+        "content": "<p>And generating leads is not the only problem. In the AI era, starting and maintaining a conversation with your customer, in the shortest possible time and with high quality, is essential. In 2026, competition for consumer attention and time has intensified: whoever responds first and best tends to close the deal. HubSpot's State of AI in Marketing report<sup>[1]</sup> indicates that 64% of marketing professionals already use AI in some funnel stage.</p><p>Digitalize your business. Generate leads, serve and sell automatically. The combination of qualified paid traffic, intelligent chatbots, and integrated CRM allows the funnel to operate continuously, even outside business hours. Salesforce's State of Sales<sup>[2]</sup> shows that companies with follow-up automation convert 53% more leads into opportunities.</p><p>Generative AI has transformed content creation for campaigns, message personalization, and intent analysis in conversations. Companies that adopt these tools strategically reduce average qualification time and increase lead-to-customer conversion rates.</p><p>AI lead scoring considers not only demographic data (role, company, size) but behavior: pages visited, time on site, downloads, chatbot interactions. The model learns from leads that converted and adjusts weights automatically.</p><p>Follow-up automation: when a lead fills a form or interacts with the chatbot, a message sequence is triggered — email, WhatsApp, or both. Timing and content can be personalized based on funnel stage and lead profile.</p><p>Human touch at decisive moments: when the lead reaches a high score or shows explicit intent (requested quote, scheduled meeting), a salesperson takes over. AI prepares a history summary so the salesperson arrives contextualized.</p><p>Conversational agents in 2026 go beyond reactive chatbots: they can research, query systems, schedule meetings, and qualify leads in natural conversations. First-party data integration (CRM, website, WhatsApp) feeds context.</p><p>Data governance is a prerequisite: GDPR, consent, security. AI models trained with inadequate data generate bias and regulatory risk. We conclude that the AI era requires strategy, not just tools.</p>",
+        "sources": [
+          { "title": "HubSpot - State of AI in Marketing", "url": "https://www.hubspot.com" },
+          { "title": "Salesforce - State of Sales Report", "url": "https://www.salesforce.com" }
+        ]
       },
       "consultaCnpjRepresentantes": {
         "title": "CNPJ Lookup: save time with representatives",
         "excerpt": "Have a new potential commercial representative? Look up the CNPJ instantly and eliminate unqualified leads.",
-        "content": "<p>Quickly look up your prospect's CNPJ. Find out if the company is active, line of business and much more, instantly.</p><p>Save time and resources. Eliminate unqualified leads from your funnel. Invest more time in those who have a better chance of closing a big deal.</p>"
+        "content": "<p>Have a new potential commercial representative? Look up the CNPJ instantly and eliminate unqualified leads. In B2B and the clothing segment, pre-qualifying representatives avoids wasting time in meetings with inactive, irregular, or out-of-profile companies. The Receita Federal<sup>[1]</sup> provides public CNPJ lookup with basic company data.</p><p>Quickly look up your prospect's CNPJ. Find out if the company is active, line of business, estimated revenue, and much more, instantly. On-demand systems can integrate this lookup into the registration flow, CRM, or WhatsApp, automating screening before a salesperson needs to dedicate time to contact.</p><p>Save time and resources. Eliminate unqualified leads from your funnel. Invest more time in those who have a better chance of closing a big deal. The logic applies to both commercial representatives and corporate customers: validating basic data before first contact qualifies the pipeline and improves team productivity.</p><p>API integrations allow real-time CNPJ lookup during form filling. If the company is inactive or irregular, the system can block registration or flag for manual review. Drastically reduces triage time.</p><p>GDPR requires that data use be appropriate, documented, and legally based. Consulting CNPJ for commercial qualification is legitimate, but the purpose must be clear and consent obtained when applicable. Document the flow and retention policies.</p><p>In representative onboarding processes, CNPJ lookup can be the first step: before sending a contract or scheduling a meeting, validate that the company exists and is in good standing. We conclude that this simple step avoids rework and protects your operation.</p>",
+        "sources": [
+          { "title": "Receita Federal - CNPJ Lookup", "url": "https://www.gov.br/receitafederal" },
+          { "title": "LGPD - General Data Protection Law", "url": "https://www.gov.br/cidadania/pt-br/acesso-a-informacao/lgpd" }
+        ]
       },
       "venderDesafioDiario": {
         "title": "Has selling become a daily challenge?",
-        "excerpt": "But you know it doesn't have to be this way. Discover the solutions that can transform your sales.",
-        "content": "<p>Has selling become a daily challenge? But you know it doesn't have to be this way.</p><p>With the right tools - ads that generate results, 24h support, CRM and automation - you can scale your business.</p>"
+        "excerpt": "But you know it doesn't have to be this way. Discover the solutions that can transform your sales in 2026.",
+        "content": "<p>Has selling become a daily challenge? But you know it doesn't have to be this way. In 2026, companies that sell more don't necessarily have more salespeople — they have better systems: ads that attract the right customer, support that qualifies and converts, CRM that organizes the pipeline, and automation that doesn't let hot leads go cold. McKinsey<sup>[1]</sup> calls this the \"B2B Digital Imperative\": digitalization isn't optional, it's a survival condition.</p><p>With the right tools — ads that generate results, 24h support, CRM and automation — you can scale your business. The combination of paid traffic, WhatsApp chatbot, and lead management allows your team to focus on negotiation and closing, not repetitive tasks. Gartner<sup>[2]</sup> highlights that the Sales Technology stack is one of the largest B2B company investments in 2026.</p><p>The challenge isn't technological, it's strategic: aligning marketing, sales, and operations in a single flow. When the lead comes from ads, is qualified by the chatbot, and forwarded to CRM with full history, the salesperson arrives prepared and the customer perceives consistent service at all touchpoints.</p><p>Integrated funnel structure: (1) Acquisition — ads on Meta, Google, or LinkedIn; (2) Qualification — chatbot or landing page with form; (3) Nurturing — email and message sequences; (4) Sales — salesperson takes over when lead is hot; (5) Post-sale — onboarding and loyalty.</p><p>Priority metrics: cost per lead (CPL), lead→opportunity conversion rate, close rate, average sales cycle time, LTV (customer lifetime value). Dashboards consolidating these metrics enable data-driven decisions.</p><p>When budget is limited, prioritize: first CRM (organization), then automated support (scale), then paid traffic (volume). A poorly used CRM with lots of traffic creates chaos; a well-configured CRM with little traffic generates qualified leads.</p><p>Diagnostic checklist: do your leads arrive in under 5 minutes? Is conversation history in the CRM? Is there automatic follow-up for non-responding leads? Does the salesperson know what the lead researched before contact? \"No\" answers indicate bottlenecks.</p><p>We conclude that the greatest immediate impact usually comes from connecting what already exists: ads → chatbot → CRM. Integration between systems often generates more results than adding new tools.</p>",
+        "sources": [
+          { "title": "McKinsey - The B2B Digital Imperative", "url": "https://www.mckinsey.com" },
+          { "title": "Gartner - Sales Technology", "url": "https://www.gartner.com" }
+        ]
+      },
+      "logoIdentidadeVisualPosicionamento": {
+        "title": "Logo and visual identity: brand positioning in 2026",
+        "excerpt": "A strong brand communicates values, differentiates from competition, and builds trust. Understand how logo and visual identity support positioning.",
+        "content": "<p>In 2026, visual identity is no longer just aesthetic: it's a strategic asset that communicates positioning, values, and differentiation. In the clothing segment, where purchase decisions are emotional and competition is intense, a coherent and recognizable brand makes the difference between being remembered or ignored. Nielsen<sup>[1]</sup> reinforces that brand consistency increases recall and trust.</p><p>The logo is the starting point, but visual identity encompasses color palette, typography, visual language, and applications across different media — from e-commerce to point-of-sale materials. Consistency ensures the customer recognizes the brand on any channel. Interbrand<sup>[2]</sup> highlights that the most valuable brands invest in unified identity.</p><p>The creation process must consider the target audience, value proposition, and competitive context. A premium brand requires different visual treatment than a young, accessible brand; the same applies to B2B versus B2C. The briefing should capture essence, tone of voice, and differentiators.</p><p>Project stages: briefing and market research; concept and creative direction; logo development and variations; application in mockups (stationery, site, packaging); brand manual with usage rules. Evaluation criteria: memorability, scalability, segment fit.</p><p>2026 trends: minimalism with personality, simplified versions for favicon and app icons, adaptation for digital formats (stories, Reels). Identity must work at 16px and on billboards. Maintenance over time prevents fragmentation as the company grows.</p>",
+        "sources": [
+          { "title": "Nielsen - Brand Consistency", "url": "https://www.nielsen.com" },
+          { "title": "Interbrand - Best Global Brands", "url": "https://www.interbrand.com" }
+        ]
+      },
+      "whatsappBusinessApiAutomacao2026": {
+        "title": "WhatsApp Business API: complete automation in 2026",
+        "excerpt": "The official WhatsApp API allows scaling support, qualifying leads, and automating flows. See what changed in 2026.",
+        "content": "<p>The WhatsApp Business API is the official solution for companies that need to scale support on the most used channel. In 2026, automation possibilities have expanded: conversational flows, AI integration, proactive sends within the 24-hour window, and direct connection with CRM and ERP. The official documentation<sup>[1]</sup> details templates, limits, and best practices.</p><p>Unlike unofficial solutions, the API ensures compliance with WhatsApp policies, avoiding blocks and maintaining account reputation. Investing in an adequate solution reduces operational risks and allows scaling safely. Meta for Developers<sup>[2]</sup> offers Cloud API and On-Premises for different needs.</p><p>Use cases go beyond reactive support: lead qualification, order confirmation, abandoned cart reminders, satisfaction surveys, and even chatbot-assisted sales. The key is designing flows that solve the customer's problem without frustrating them with generic responses.</p><p>Architecture: solution provider (BSP) or direct Cloud API; application server; CRM/ERP integration. Provider choice impacts costs, support, and features. Messages should be clear, objective, and within the 24h window for responses to user-initiated messages.</p><p>Costs vary by model (conversation, notification) and country. Warm-up strategies: start with low volume, avoid generic messages, prioritize quality responses. Metrics: delivery rate, response time, resolution rate. We conclude with implementation guide: account approval, setup, integration, and go-live.</p>",
+        "sources": [
+          { "title": "WhatsApp Business API - Official Documentation", "url": "https://developers.facebook.com/docs/whatsapp" },
+          { "title": "Meta for Developers - Cloud API", "url": "https://developers.facebook.com" }
+        ]
+      },
+      "crmPipelineVendasGestaoLeads": {
+        "title": "CRM and sales pipeline: lead management in 2026",
+        "excerpt": "Organize contacts, track funnel stages, and increase team productivity with a well-configured CRM.",
+        "content": "<p>A well-configured CRM centralizes contacts, interaction history, and funnel stages, allowing the sales team to prioritize the hottest leads and not lose opportunities due to lack of follow-up. In 2026, CRM integration with acquisition channels — ads, website, WhatsApp — has become standard for companies seeking efficiency. Salesforce's State of Sales<sup>[1]</sup> shows that companies with integrated CRM convert 2x more leads.</p><p>The visual pipeline facilitates bottleneck identification: where leads get stuck, how long they stay at each stage, and conversion rates between stages. This data guides process adjustments, training, and even commercial offerings. HubSpot<sup>[2]</sup> recommends pipelines with 4-7 stages for B2B.</p><p>Lead management includes qualification (scoring), automatic or manual distribution, and follow-up rules. Leads that don't respond in X days can be reactivated by automated campaigns; qualified leads can receive priority in the sales queue.</p><p>B2B pipeline structure: Lead → MQL → SQL → Opportunity → Negotiation → Closed. Essential fields: source, score, last contact, next action. WhatsApp-CRM integration automatically records conversations in contact history.</p><p>CRM can't become a data dump: define owners for each stage, follow-up SLA, and disqualification criteria. Obsolete data pollutes reports and hinders decisions.</p><p>GDPR: store only necessary data, obtain consent for marketing, document legal basis. Right to be forgotten requires deletion process. Metrics: funnel velocity, conversion rate by stage, average cycle time. We conclude that a well-used CRM is a growth lever.</p>",
+        "sources": [
+          { "title": "Salesforce - State of Sales Report", "url": "https://www.salesforce.com" },
+          { "title": "HubSpot - CRM Best Practices", "url": "https://www.hubspot.com" }
+        ]
+      },
+      "landingPagesAltaConversao": {
+        "title": "High-conversion landing pages in 2026",
+        "excerpt": "Pages focused on a single action convert more. Learn the copy, design, and structure principles that increase conversions.",
+        "content": "<p>Landing pages are pages focused on a single action — signup, download, scheduling, or purchase. In 2026, competition for attention requires every page element to work for conversion: clear headline, benefits in evidence, social proof, lean form, and irresistible call-to-action. Unbounce<sup>[1]</sup> publishes annual conversion benchmarks by industry.</p><p>Copy should speak the visitor's language, address objections, and create urgency without exaggeration. Headlines that promise specific results tend to perform better than generic messages. The AIDA structure (Attention, Interest, Desire, Action) remains valid, adapted to on-screen reading behavior. CXL<sup>[2]</sup> highlights that benefit-oriented copy outperforms feature-oriented copy.</p><p>Design should guide the eye to the CTA, avoid distractions, and load fast. On mobile, which represents most traffic in many campaigns, the experience should be fluid and the form should have the minimum necessary fields. Each additional field reduces conversion by 5-10%.</p><p>Anatomy: hero with headline and subheadline; benefits in bullets or icons; social proof (testimonials, logos, numbers); form with 3-5 fields; prominent CTA; FAQ for objections. A/B tests on headline, CTA, and form typically yield 20-50% gains.</p><p>Integration with analytics (conversion events) and CRM (automatic lead) is essential. Common mistakes: too many options, generic CTA (\"Submit\"), lack of social proof, slow page. Tools: Unbounce, Instapage, Leadpages for creation; VWO or Google Optimize for testing. We conclude that an optimized landing page is an acquisition asset.</p>",
+        "sources": [
+          { "title": "Unbounce - Landing Page Benchmarks", "url": "https://unbounce.com" },
+          { "title": "CXL - Conversion Optimization", "url": "https://cxl.com" }
+        ]
+      },
+      "sistemasSobDemandaQuandoInvestir": {
+        "title": "On-demand systems: when and why to invest",
+        "excerpt": "Off-the-shelf solutions don't always meet specific needs. Understand when a custom system is worth the investment.",
+        "content": "<p>Off-the-shelf solutions work well for standard processes, but businesses with unique flows — integration between ERP, CRM and WhatsApp, commercial process automation, real-time CNPJ lookup — often need on-demand systems. In 2026, API maturity, low-code, and integration tools have reduced development cost and time, making custom projects more accessible. Gartner<sup>[1]</sup> points to low-code as a growth trend in enterprise development.</p><p>Investing in an on-demand system makes sense when: (1) critical processes depend on spreadsheets and manual work; (2) integrations between tools are non-existent or fragile; (3) off-the-shelf solutions don't cover your business's specific use cases; (4) scale or complexity justifies return on investment.</p><p>The process involves requirement mapping, scope definition, iterative development, and testing. A good partner delivers in sprints, allowing continuous validation and adjustments before final launch. MuleSoft<sup>[2]</sup> highlights that well-designed APIs are the foundation for sustainable integrations.</p><p>Prioritize demands by business impact and implementation effort. Avoid scope creep: freeze requirements per sprint. Maintenance and documentation ensure the system evolves without becoming legacy. Use cases in clothing: representative management, sales channel integration, post-sale automation. We conclude that on-demand systems are strategic investment when well planned.</p>",
+        "sources": [
+          {
+            "title": "Gartner",
+            "url": "https://www.gartner.com"
+          },
+          {
+            "title": "MuleSoft",
+            "url": "https://www.mulesoft.com"
+          }
+        ]
+      },
+      "estrategiaNegociosDigitais": {
+        "title": "Digital business strategy in 2026",
+        "excerpt": "Market, audience, and competition evolve fast. A clear strategy aligns marketing, sales, and operations.",
+        "content": "<p>A digital business strategy connects business objectives with marketing, sales, and operations tactics. In 2026, channel fragmentation, consumer behavior changes, and competition evolution require periodic review — not a static plan made once a year. McKinsey<sup>[1]</sup> and BCG<sup>[2]</sup> reinforce that digital transformation requires strategy aligned with business.</p><p>The starting point is market understanding: size, trends, barriers to entry. Next, audience mapping: who buys, what pains, where they seek information, how they decide. Competitive analysis reveals occupied positions and gaps your brand can fill.</p><p>With this diagnosis, SMART objectives, channel strategies, and tracking metrics are defined. The plan must be flexible enough to incorporate campaign learnings and market changes, but structured enough to avoid dispersion.</p><p>Frameworks like SWOT, Porter, and Canvas help structure thinking. Market analysis tools (sector data, trends) feed the diagnosis. Executable briefs translate strategy into actions for marketing and sales. Quarterly review for tactics, annual for positioning. We conclude with strategic document template.</p>",
+        "sources": [
+          {
+            "title": "McKinsey",
+            "url": "https://www.mckinsey.com"
+          },
+          {
+            "title": "BCG",
+            "url": "https://www.bcg.com"
+          }
+        ]
+      },
+      "otimizacaoCampanhasAdsPerformance": {
+        "title": "Ads Performance campaign optimization in 2026",
+        "excerpt": "Data, testing, and continuous optimization maximize campaign return. See the practices that make a difference.",
+        "content": "<p>Ad campaigns perform better when there's a systematic process of analysis, testing, and adjustment. In 2026, platforms offer increasing automation — Advantage+, Performance Max, smart campaigns — but the manager who understands metrics, segmentation, and creatives remains essential to extract maximum budget value. Google Ads<sup>[1]</sup> and Meta Business<sup>[2]</sup> publish updated best practice guides.</p><p>Priority metrics depend on the objective: for leads, cost per lead and lead quality; for sales, ROAS and LTV; for awareness, CPM and reach. Defining clear KPIs avoids optimizing for the wrong indicator.</p><p>A/B testing on creatives, headlines, audiences, and offers allows identifying what works. The discipline of documenting results and scaling winners separates amateur from professional managers. Weekly routine: review campaigns, pause underperformers, scale winners, test new hypotheses.</p><p>Integration with attribution and CRM connects media investment to business results. Consolidated dashboards avoid fragmented analysis. We conclude with weekly optimization checklist and budget decision criteria.</p>",
+        "sources": [
+          {
+            "title": "Google Ads",
+            "url": "https://support.google.com/google-ads"
+          },
+          {
+            "title": "Meta",
+            "url": "https://www.facebook.com/business"
+          }
+        ]
+      },
+      "midiaOnOffCampanhasIntegradas": {
+        "title": "On and Off media: integrated campaigns in 2026",
+        "excerpt": "Digital and in-person strategies reinforce each other. Plan campaigns that connect channels for greater impact.",
+        "content": "<p>In 2026, the rigid division between online and offline media makes less and less sense. Consumers navigate between screens and points of sale; campaigns that talk to each other — same message, same aesthetic, same period — generate more recall and conversion than isolated actions. WARC<sup>[1]</sup> and IAB<sup>[2]</sup> highlight the growth of media mix modeling for integrated planning.</p><p>Off media includes outdoor, radio, TV, print, point of sale, and events. On media includes social network ads, search, display, and digital partnerships. Integration can be by theme (collection launch), period (Black Friday), or audience (geolocation + digital for reinforcement).</p><p>Integrated planning considers budget, each channel's reach, frequency, and message. In many cases, digital complements off with retargeting, conversion, and measurement; off expands reach and credibility in markets where physical presence is still strong.</p><p>Cross-channel attribution requires unified data and models that consider each touchpoint's role. Clothing cases: launches with outdoor + digital, trade shows with post-event retargeting. Unified metrics and alignment between media and trade marketing. We conclude that on/off integration is a competitive differentiator.</p>",
+        "sources": [
+          {
+            "title": "WARC",
+            "url": "https://www.warc.com"
+          },
+          {
+            "title": "IAB",
+            "url": "https://www.iab.com"
+          }
+        ]
+      },
+      "adtechDataDecisoes2026": {
+        "title": "AdTech and Data: data-driven decisions in 2026",
+        "excerpt": "Technology and data analysis allow understanding behavior, optimizing campaigns, and supporting strategic decisions.",
+        "content": "<p>AdTech and Data refer to using technology and data analysis to understand audience behavior, optimize campaigns, and support strategic decisions. In 2026, the availability of first, second, and third-party data — combined with analytics and AI tools — enables personalization and efficiency at previously impossible levels. IAB<sup>[1]</sup> and Google's Privacy Sandbox<sup>[2]</sup> guide the evolution in privacy and data.</p><p>First-party data (website, CRM, WhatsApp) is most valuable: it belongs to the company and reflects real behavior. Second-party data comes from partners; third-party from aggregators. The combination enriches segmentation and retargeting.</p><p>DMP, CDP, analytics, and dashboard tools allow consolidating sources, creating segments, and tracking performance. Data governance — GDPR, consent, security — is a prerequisite for sustainable data use.</p><p>Typical stack for mid-size companies: analytics (GA4), CRM, CDP or segmentation tool. Avoid attribution bias and metric overload — focus on KPIs that impact business. 2026 trends: cookieless, first-party data strategy, AI in predictive analytics. We conclude that well-governed data is a competitive advantage.</p>",
+        "sources": [
+          {
+            "title": "IAB",
+            "url": "https://www.iab.com"
+          },
+          {
+            "title": "Privacy Sandbox",
+            "url": "https://privacysandbox.com"
+          }
+        ]
+      },
+      "experienciaClienteFidelizacao": {
+        "title": "Customer experience and loyalty in 2026",
+        "excerpt": "Relationship, automation, and loyalty increase customer value over time.",
+        "content": "<p>Customer experience encompasses all touchpoints — from the first ad to post-sale. In 2026, companies that invest in integrated journey, agile support, and loyalty programs tend to retain more customers and increase lifetime value (LTV). Zendesk<sup>[1]</sup> and Qualtrics<sup>[2]</sup> publish annual CX trends reports.</p><p>Loyalty isn't just a points program: it's delivery consistency, quick problem resolution, proactive communication, and recognition. The customer who feels valued buys again and recommends the brand.</p><p>CRM and experience tools allow segmenting customers by value, behavior, and journey stage. Reactivation, upsell, and cross-sell campaigns can be automated based on rules and triggers.</p><p>CX program structure: journey mapping, metrics (NPS, CSAT, LTV), support-marketing-sales integration for 360° view. Clothing cases: post-sale, representative loyalty, personalized communication. We conclude that experience is a retention differentiator.</p>",
+        "sources": [
+          {
+            "title": "Zendesk",
+            "url": "https://www.zendesk.com"
+          },
+          {
+            "title": "Qualtrics",
+            "url": "https://www.qualtrics.com"
+          }
+        ]
+      },
+      "provadorVirtualRoiImplementacao": {
+        "title": "Virtual Fitting Room: ROI and implementation in 2026",
+        "excerpt": "How to measure virtual fitting room return and plan a successful implementation.",
+        "content": "<p>The Virtual Fitting Room generates value when it reduces returns, increases conversion, and differentiates the brand. In 2026, companies that implemented the solution report positive ROI in 6 to 12 months, depending on traffic volume and customer adoption. Baymard<sup>[1]</sup> and Shopify<sup>[2]</sup> document UX impact on fashion e-commerce.</p><p>ROI calculation considers: percentage reduction in returns (and associated cost), e-commerce conversion rate increase, impact on average order value (customers who try tend to buy more pieces), and brand value (competitive differentiator and social media mentions).</p><p>Implementation involves technical integration with e-commerce, catalog preparation (product photos and data), experience configuration (user flow, visualization quality), and promotion so customers know the tool.</p><p>Technical criteria: resolution, angles, mobile compatibility. Stages: integration, catalog preparation, configuration, user testing, launch. Metrics: adoption, satisfaction, conversion and return impact. We conclude that ROI materializes with adequate traffic and promotion.</p>",
+        "sources": [
+          {
+            "title": "Baymard",
+            "url": "https://baymard.com"
+          },
+          {
+            "title": "Shopify",
+            "url": "https://www.shopify.com"
+          }
+        ]
+      },
+      "iaGenerativaAtendimentoCliente": {
+        "title": "Generative AI in customer service in 2026",
+        "excerpt": "Language models transform chatbots and virtual assistants. See what works in practice.",
+        "content": "<p>In 2026, generative AI has revolutionized customer service: chatbots that understand context, generate natural responses, and can be trained on company knowledge. The technology reduces cost per support and enables 24h scale, but requires care with hallucinations, voice tone, and human handoff. Gartner<sup>[1]</sup> and Forrester<sup>[2]</sup> highlight generative AI growth in customer service.</p><p>Language models can be used for: automatic responses to FAQs, product suggestion generation, conversation summaries for salespeople, and even multi-language support without manual translation.</p><p>Implementation requires updated knowledge base, extensive testing, and quality monitoring. Incorrect or inadequate responses harm experience and brand reputation.</p><p>Architectures: simple rules, NLU + intents, fine-tuned models. Governance and human review are essential. 2026 trends: autonomous agents, internal system integration, automation-human touch balance. We conclude that generative AI requires strategy and governance.</p>",
+        "sources": [
+          {
+            "title": "Gartner",
+            "url": "https://www.gartner.com"
+          },
+          {
+            "title": "Forrester",
+            "url": "https://www.forrester.com"
+          }
+        ]
+      },
+      "croOtimizacaoConversaoSites": {
+        "title": "CRO: conversion optimization on websites in 2026",
+        "excerpt": "Increase conversions without increasing traffic. Testing, analysis, and continuous site improvements.",
+        "content": "<p>CRO (Conversion Rate Optimization) is the practice of improving website conversion rate through testing, behavior analysis, and iterative adjustments. In 2026, with acquisition cost high, converting existing traffic better is often more efficient than simply increasing media investment. CXL<sup>[1]</sup> and Hotjar<sup>[2]</sup> are references in optimization and behavior analysis.</p><p>The process involves: data analysis (where visitors abandon, which pages convert less), hypothesis formulation (what might be causing the problem), variation creation (new headline, new CTA, new layout), and A/B or multivariate testing to validate.</p><p>Heatmap, session recording, and conversion funnel tools help identify bottlenecks. Optimization can focus on landing pages, product page, cart, checkout, or lead forms.</p><p>Prioritize tests by expected impact and effort. With little traffic, focus on high-impact elements (headline, CTA). Common mistakes: testing irrelevant elements, ignoring segments. We conclude that CRO is high-return investment when methodological.</p>",
+        "sources": [
+          {
+            "title": "CXL",
+            "url": "https://cxl.com"
+          },
+          {
+            "title": "Hotjar",
+            "url": "https://www.hotjar.com"
+          }
+        ]
+      },
+      "integracaoPlataformasErpCrmWhatsapp": {
+        "title": "Platform integration: ERP, CRM and WhatsApp in 2026",
+        "excerpt": "Connect systems to eliminate rework, automate flows, and have a unified data view.",
+        "content": "<p>Companies operating with ERP, CRM, WhatsApp, and e-commerce in silos lose efficiency: duplicated data, manual rework, and fragmented view. In 2026, platform integration has become accessible via APIs, middleware, and low-code tools, allowing orders, customers, and conversations to flow between systems automatically. Zapier<sup>[1]</sup> and Make<sup>[2]</sup> are leaders in automation and integration.</p><p>ERP-CRM integration synchronizes customer, order, and inventory data. CRM-WhatsApp integration allows conversations to be recorded in customer history and sends to be personalized based on funnel stage. E-commerce-ERP integration ensures online orders enter the operational flow without manual entry.</p><p>The integration project must map data flows, define each system's responsibilities (source of truth), and consider security, performance, and maintenance. Poorly designed integrations become maintenance nightmares.</p><p>Architectures: point-to-point, middleware, iPaaS. Tools: Zapier and Make for simple scenarios; MuleSoft and similar for enterprise. Documentation and monitoring are critical. Roadmap: prioritize highest-impact flows. We conclude that well-done integration eliminates operational bottlenecks.</p>",
+        "sources": [
+          {
+            "title": "Zapier",
+            "url": "https://zapier.com"
+          },
+          {
+            "title": "Make",
+            "url": "https://www.make.com"
+          }
+        ]
+      },
+      "brandingSegmentoVestuario": {
+        "title": "Branding for the clothing segment in 2026",
+        "excerpt": "Fashion and clothing brands need coherent identity across all touchpoints. See the trends.",
+        "content": "<p>In the clothing segment, the brand communicates positioning, style, and values. In 2026, consumers demand consistency between physical store, e-commerce, social networks, and representative materials. A fragmented identity generates distrust; a strong identity generates recognition and preference. McKinsey<sup>[1]</sup> and Business of Fashion<sup>[2]</sup> analyze sector trends.</p><p>Branding encompasses name, logo, colors, typography, visual language, and voice tone. In clothing, aesthetics must reflect the target audience: casual, premium, sporty, sustainable. Consistency in catalogs, packaging, tags, and points of sale reinforces quality perception.</p><p>2026 trends include: minimalism with personality, sustainability as brand value, adaptation for digital formats (stories, Reels), and collaborations that expand reach. Brands that invest in content and community strengthen the bond beyond the transaction.</p><p>Building process: diagnosis, positioning, visual identity, applications. Repositioning requires care not to lose current audience. Branding and digital performance can coexist with consistency. Maintenance in expansion: new lines and channels without losing essence. We conclude that branding is long-term investment.</p>",
+        "sources": [
+          {
+            "title": "McKinsey",
+            "url": "https://www.mckinsey.com"
+          },
+          {
+            "title": "BoF",
+            "url": "https://www.businessoffashion.com"
+          }
+        ]
+      },
+      "atribuicaoConversoesCampanhasDigitais": {
+        "title": "Conversion attribution in digital campaigns in 2026",
+        "excerpt": "Understand which channel and which ad generated the conversion. Attribution models and tools.",
+        "content": "<p>Conversion attribution answers the question: which channel, campaign, or ad contributed to the sale or lead? In 2026, with multi-channel journeys and long conversion windows, the answer isn't trivial. Simplistic models (last click) may underestimate top-of-funnel channels; complex models require data and configuration. Google Analytics<sup>[1]</sup> and Meta<sup>[2]</sup> offer native attribution and insights.</p><p>Common models: last click (100% to last touch), first click (100% to first), linear (equal division among all touches), time-based (more weight to recent touches), and data-driven (algorithmic models that learn from history).</p><p>For businesses with long cycles, CRM and offline data integration is essential to connect ads to real sales. Each model has pros and cons; avoid premature optimization with insufficient data.</p><p>2026 trends: cookieless attribution, first-party data, incrementality models. We conclude that well-configured attribution guides budget decisions with greater precision.</p>",
+        "sources": [
+          {
+            "title": "Google Analytics",
+            "url": "https://support.google.com/analytics"
+          },
+          {
+            "title": "Meta",
+            "url": "https://www.facebook.com/business"
+          }
+        ]
+      },
+      "funilVendasB2bQualificacaoLeads": {
+        "title": "B2B sales funnel and lead qualification in 2026",
+        "excerpt": "Structure the funnel, qualify leads, and increase commercial team efficiency.",
+        "content": "<p>In B2B sales, the funnel is longer and involves multiple decision-makers. Lead qualification — identifying who has budget, authority, need, and timing (BANT) — prevents the team from wasting time on prospects who won't close. In 2026, enrichment, scoring, and automation tools make qualification more accurate and scalable. HubSpot<sup>[1]</sup> and Gong<sup>[2]</sup> are references in B2B management and revenue intelligence.</p><p>The typical funnel includes: lead (initial contact), MQL (marketing qualified lead), SQL (sales qualified lead), opportunity (negotiation in progress), and customer (closed). Each stage requires clear criteria and defined actions.</p><p>Lead scoring assigns points based on behavior (downloads, pages visited) and data (role, company, size). Leads above the threshold go to sales; below, remain in nurturance until they mature.</p><p>Methodologies: BANT, CHAMP, MEDDIC. Marketing-sales integration: follow-up SLA, qualified lead definition. Metrics: funnel velocity, conversion rate by stage. Periodic checklist for funnel health. We conclude that well-done qualification increases sales team efficiency.</p>",
+        "sources": [
+          {
+            "title": "HubSpot",
+            "url": "https://www.hubspot.com"
+          },
+          {
+            "title": "Gong",
+            "url": "https://www.gong.io"
+          }
+        ]
       }
     }
   },

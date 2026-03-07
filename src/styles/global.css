@@ -37,11 +37,15 @@ a:hover {
   padding: 4rem 0;
 }
 
+.section-compact {
+  padding: 2rem 0;
+}
+
 .section-hero-bg {
   position: relative;
   z-index: 50;
   background: #0a0a0f;
-  margin-top: -12rem;
+  padding-top: 0.25rem;
 }
 
 .section-hero-bg .container {
@@ -50,7 +54,7 @@ a:hover {
 }
 
 .container-services {
-  max-width: 900px;
+  max-width: 1400px;
 }
 
 .section-hero-bg-grid {

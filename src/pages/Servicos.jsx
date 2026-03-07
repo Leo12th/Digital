@@ -5,13 +5,17 @@ export function Servicos() {
   const { t } = useTranslation()
 
   const services = [
-    { icon: 'scan', title: t('services.virtualFitting.title'), desc: t('services.virtualFitting.desc') },
-    { icon: 'layers', title: t('services.fitting360.title'), desc: t('services.fitting360.desc') },
-    { icon: 'fileSearch', title: t('services.cnpj.title'), desc: t('services.cnpj.desc') },
-    { icon: 'globe', title: t('services.platforms.pos'), desc: t('services.platforms.title') },
-    { icon: 'cpu', title: t('services.platforms.ecommerce'), desc: t('services.platforms.title') },
-    { icon: 'zap', title: t('services.platforms.events'), desc: t('services.platforms.title') },
-    { icon: 'target', title: t('services.marketing.title'), desc: t('services.marketing.desc') },
+    { icon: 'palette', title: t('services.logoIdentity.title'), desc: t('services.logoIdentity.desc') },
+    { icon: 'rocket', title: t('services.trafficManagement.title'), desc: t('services.trafficManagement.desc') },
+    { icon: 'bot', title: t('services.whatsappChatbot.title'), desc: t('services.whatsappChatbot.desc') },
+    { icon: 'handshake', title: t('services.leadsClients.title'), desc: t('services.leadsClients.desc') },
+    { icon: 'globe', title: t('services.highConversionSites.title'), desc: t('services.highConversionSites.desc') },
+    { icon: 'settings', title: t('services.onDemandPrograms.title'), desc: t('services.onDemandPrograms.desc') },
+    { icon: 'chart', title: t('services.businessStrategy.title'), desc: t('services.businessStrategy.desc') },
+    { icon: 'megaphone', title: t('services.adsPerformance.title'), desc: t('services.adsPerformance.desc') },
+    { icon: 'film', title: t('services.mediaOnOff.title'), desc: t('services.mediaOnOff.desc') },
+    { icon: 'zap', title: t('services.automationSystems.title'), desc: t('services.automationSystems.desc') },
+    { icon: 'cpu', title: t('services.systemsWithAi.title'), desc: t('services.systemsWithAi.desc') },
   ]
 
   return (
