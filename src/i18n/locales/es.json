@@ -37,20 +37,20 @@
     "virtualFitting": "Probador Virtual",
     "virtualFittingDesc": "¿Cambiando la colección? Invite a sus clientes y representantes potenciales a probar las prendas de su catálogo. Solo necesita una foto. Ellos eligen la prenda. Nuestro Probador Virtual muestra el ajuste y los detalles en 360°.",
     "teamAi": {
-      "title": "Equipo de Inteligencia Artificial — Referencia Mundial",
+      "title": "Especialistas en I.A.",
       "paragraphs": [
-        "Nuestro equipo de I.A. reúne especialistas de clase mundial que transforman proyectos con inteligencia artificial de vanguardia. No somos solo desarrolladores — somos pioneros que dominan LLMs, visión computacional, automatización inteligente y sistemas predictivos a nivel internacional.",
-        "Años de experiencia en tecnologías como GPT, Claude, modelos de lenguaje y soluciones bajo demanda nos colocan entre los mejores equipos de Brasil. Cada proyecto es tratado con la excelencia que solo quienes están en la vanguardia de la tecnología pueden ofrecer.",
-        "Transformamos ideas en sistemas inteligentes que escalan negocios. Nuestra misión: llevar la mejor inteligencia artificial del mundo hasta usted."
+        "Nuestro equipo de I.A. reúne especialistas calificados que transforman proyectos con inteligencia artificial de vanguardia. No somos solo desarrolladores — somos especialistas que dominan LLMs, visión computacional, automatización inteligente y sistemas predictivos en diversas tecnologías.",
+        "Años de experiencia con proyectos con I.A. en Brasil y en el exterior — tecnologías como GPT, Claude, modelos de lenguaje y soluciones bajo demanda nos colocan entre los mejores equipos de Brasil. Cada proyecto es tratado con la excelencia que solo quienes están en la vanguardia de la tecnología pueden ofrecer.",
+        "Transformamos ideas en sistemas inteligentes que escalan negocios. Nuestra misión: llevar soluciones en I.A. que hacen la diferencia hasta usted."
       ],
-      "badges": ["I.A. de Vanguardia", "Machine Learning", "Automatización Mundial", "Referencia Brasil"]
+      "badges": ["I.A. de Vanguardia", "Machine Learning", "Automatización Inteligente", "Referencia Brasil"]
     },
     "teamMarketing": {
       "title": "Equipo de Marketing — Los Mejores del Mercado",
       "paragraphs": [
         "Nuestro equipo de marketing está formado por especialistas con más de 10 años de mercado — profesionales que construyeron carreras en las mayores agencias y hoy traen esa excelencia a cada proyecto. Ex-coordinadora internacional y participantes de la mayor empresa de propaganda del estado de Goiás componen un equipo de élite.",
         "Dominamos tráfico pago, branding, campañas integradas y gestión de marcas con la maestría de quienes ya escalaron negocios en todo Brasil. Cada estrategia es diseñada con la mirada de quien conoce el mercado desde adentro.",
-        "No entregamos solo campañas — entregamos resultados que transforman marcas. Nuestro equipo es la prueba de que el mejor marketing del país está aquí."
+        "No entregamos solo campañas — entregamos resultados que transforman marcas. Nuestro equipo es la prueba de que el marketing que entrega resultados está aquí."
       ],
       "badges": ["10+ Años", "Coordinación Internacional", "Líder Goiás", "Tráfico de Élite"]
     }
