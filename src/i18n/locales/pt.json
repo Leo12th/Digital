@@ -35,7 +35,25 @@
     "mission": "Somos uma empresa de SOLUÇÕES INTEGRADAS para escalar grandes negócios.",
     "description": "Criamos e aperfeiçoamos tecnologias voltadas para comunicação, marketing, comercial e promoção de vendas no segmento de vestuário.",
     "virtualFitting": "Provador Virtual",
-    "virtualFittingDesc": "Mudando a coleção? Chame seus clientes e representantes em potencial para experimentar as roupas do seu catálogo. Você só precisa de uma foto. Ele escolhe a roupa. Nosso Provador Virtual mostra o caimento e os detalhes em 360°."
+    "virtualFittingDesc": "Mudando a coleção? Chame seus clientes e representantes em potencial para experimentar as roupas do seu catálogo. Você só precisa de uma foto. Ele escolhe a roupa. Nosso Provador Virtual mostra o caimento e os detalhes em 360°.",
+    "teamAi": {
+      "title": "Equipe de Inteligência Artificial — Referência Mundial",
+      "paragraphs": [
+        "Nossa equipe de I.A. reúne especialistas de classe mundial que transformam projetos com inteligência artificial de ponta. Não somos apenas desenvolvedores — somos pioneiros que dominam LLMs, visão computacional, automação inteligente e sistemas preditivos em nível internacional.",
+        "Anos de experiência em tecnologias como GPT, Claude, modelos de linguagem e soluções sob demanda nos colocam entre as melhores equipes do Brasil. Cada projeto é tratado com a excelência que só quem está na vanguarda da tecnologia pode oferecer.",
+        "Transformamos ideias em sistemas inteligentes que escalam negócios. Nossa missão: levar a melhor inteligência artificial do mundo até você."
+      ],
+      "badges": ["I.A. de Ponta", "Machine Learning", "Automação Mundial", "Referência Brasil"]
+    },
+    "teamMarketing": {
+      "title": "Equipe de Marketing — Os Melhores do Mercado",
+      "paragraphs": [
+        "Nossa equipe de marketing é formada por especialistas com mais de 10 anos de mercado — profissionais que construíram carreiras nas maiores agências e hoje trazem essa excelência para cada projeto. Ex-coordenadora internacional e participantes da maior empresa de propaganda do estado de Goiás compõem um time de elite.",
+        "Dominamos tráfego pago, branding, campanhas integradas e gestão de marcas com a maestria de quem já escalou negócios em todo o Brasil. Cada estratégia é desenhada com o olhar de quem conhece o mercado de dentro para fora.",
+        "Não entregamos apenas campanhas — entregamos resultados que transformam marcas. Nossa equipe é a prova de que o melhor marketing do país está aqui."
+      ],
+      "badges": ["10+ Anos", "Coordenação Internacional", "Líder Goiás", "Tráfego de Elite"]
+    }
   },
   "services": {
     "title": "Nossos Serviços",

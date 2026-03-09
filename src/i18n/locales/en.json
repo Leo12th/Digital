@@ -35,7 +35,25 @@
     "mission": "We are a company of INTEGRATED SOLUTIONS to scale large businesses.",
     "description": "We create and perfect technologies focused on communication, marketing, commercial and sales promotion in the clothing segment.",
     "virtualFitting": "Virtual Fitting Room",
-    "virtualFittingDesc": "Changing the collection? Invite your clients and potential representatives to try on the clothes from your catalog. You only need a photo. They choose the outfit. Our Virtual Fitting Room shows the fit and details in 360°."
+    "virtualFittingDesc": "Changing the collection? Invite your clients and potential representatives to try on the clothes from your catalog. You only need a photo. They choose the outfit. Our Virtual Fitting Room shows the fit and details in 360°.",
+    "teamAi": {
+      "title": "Artificial Intelligence Team — World-Class Reference",
+      "paragraphs": [
+        "Our AI team brings together world-class experts who transform projects with cutting-edge artificial intelligence. We are not just developers — we are pioneers who master LLMs, computer vision, intelligent automation and predictive systems at an international level.",
+        "Years of experience with technologies like GPT, Claude, language models and on-demand solutions place us among the best teams in Brazil. Every project is treated with the excellence that only those at the forefront of technology can deliver.",
+        "We turn ideas into intelligent systems that scale businesses. Our mission: to bring the best artificial intelligence in the world to you."
+      ],
+      "badges": ["Cutting-Edge AI", "Machine Learning", "World Automation", "Brazil Reference"]
+    },
+    "teamMarketing": {
+      "title": "Marketing Team — The Best in the Market",
+      "paragraphs": [
+        "Our marketing team is made up of specialists with over 10 years of market experience — professionals who built careers at the largest agencies and now bring that excellence to every project. Former international coordinator and participants from the largest advertising company in the state of Goiás make up an elite team.",
+        "We master paid traffic, branding, integrated campaigns and brand management with the mastery of those who have already scaled businesses across Brazil. Every strategy is designed with the insight of those who know the market from the inside out.",
+        "We don't just deliver campaigns — we deliver results that transform brands. Our team is proof that the best marketing in the country is right here."
+      ],
+      "badges": ["10+ Years", "International Coordination", "Goiás Leader", "Elite Traffic"]
+    }
   },
   "services": {
     "title": "Our Services",

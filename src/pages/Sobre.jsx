@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { AboutTeams } from '../components/AboutTeams'
 
 export function Sobre() {
   const { t } = useTranslation()
@@ -20,6 +21,7 @@ export function Sobre() {
             <h2>{t('about.virtualFitting')}</h2>
             <p>{t('about.virtualFittingDesc')}</p>
           </div>
+          <AboutTeams />
         </div>
       </div>
     </section>
