@@ -58,7 +58,8 @@
 }
 
 .about-content {
-  max-width: 720px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .about-mission {
@@ -73,39 +74,6 @@
   color: var(--text-secondary);
   margin-bottom: 2rem;
   line-height: 1.7;
-}
-
-.about-block {
-  background: rgba(26, 26, 36, 0.6);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(230, 57, 80, 0.2);
-  border-radius: 12px;
-  padding: 1.5rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.about-block::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--accent), transparent);
-  opacity: 0.8;
-}
-
-.about-block h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
-  color: var(--accent);
-}
-
-.about-block p {
-  color: var(--text-secondary);
-  line-height: 1.6;
 }
 
 .section-contact {

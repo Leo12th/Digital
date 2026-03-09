@@ -17,10 +17,6 @@ export function Sobre() {
         <div className="about-content">
           <p className="about-mission">{t('about.mission')}</p>
           <p className="about-desc">{t('about.description')}</p>
-          <div className="about-block">
-            <h2>{t('about.virtualFitting')}</h2>
-            <p>{t('about.virtualFittingDesc')}</p>
-          </div>
           <AboutTeams />
         </div>
       </div>
