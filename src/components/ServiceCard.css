@@ -1,3 +1,12 @@
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-card-link:hover {
+  color: inherit;
+}
+
 .service-card {
   background: var(--bg-card);
   border: 1px solid rgba(230, 57, 80, 0.25);

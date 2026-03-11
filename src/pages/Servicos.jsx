@@ -16,6 +16,8 @@ export function Servicos() {
     { icon: 'film', title: t('services.mediaOnOff.title'), desc: t('services.mediaOnOff.desc') },
     { icon: 'zap', title: t('services.automationSystems.title'), desc: t('services.automationSystems.desc') },
     { icon: 'cpu', title: t('services.systemsWithAi.title'), desc: t('services.systemsWithAi.desc') },
+    { icon: 'scan', title: t('services.virtualFitting.title'), desc: t('services.virtualFitting.desc'), href: '/provador' },
+    { icon: 'fileSearch', title: t('services.cnpj.title'), desc: t('services.cnpj.desc'), href: '/projetos/consulta-cnpj' },
   ]
 
   return (
@@ -26,7 +28,7 @@ export function Servicos() {
         <p className="section-subtitle">{t('services.subtitle')}</p>
         <div className="services-grid">
           {services.map((s, i) => (
-            <ServiceCard key={i} icon={s.icon} title={s.title} description={s.desc} />
+            <ServiceCard key={i} icon={s.icon} title={s.title} description={s.desc} href={s.href} />
           ))}
         </div>
       </div>

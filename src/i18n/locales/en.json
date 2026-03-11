@@ -101,6 +101,14 @@
     "systemsWithAi": {
       "title": "Systems with A.I.",
       "desc": "We create intelligent systems that use artificial intelligence for data analysis, predictions and automated decisions in your business."
+    },
+    "virtualFitting": {
+      "title": "Virtual Fitting Room",
+      "desc": "Try on clothes from our catalog with AI recommendations. Describe your style and get personalized outfit suggestions."
+    },
+    "cnpj": {
+      "title": "CNPJ Lookup",
+      "desc": "Consult company data by CNPJ. Quick access to registration information for your business needs."
     }
   },
   "portfolio": {
@@ -163,7 +171,42 @@
         "CRM",
         "Automation"
       ]
+    },
+    "consultaCnpj": {
+      "title": "CNPJ Lookup",
+      "description": "Tool to look up CNPJ of representatives and prospects. Check registration status, line of business and more.",
+      "tags": ["CNPJ", "Marketing"]
     }
+  },
+  "cnpj": {
+    "title": "CNPJ Lookup",
+    "subtitle": "Quickly look up your prospect's CNPJ. Find out if the company is active, line of business and more.",
+    "label": "CNPJ",
+    "search": "Look up",
+    "searching": "Looking up...",
+    "invalidLength": "CNPJ must have 14 digits",
+    "error": "Error looking up. Please try again.",
+    "limitReached": "You have already performed a lookup in this session. Close the browser to look up again.",
+    "fantasyName": "Trade name",
+    "taxId": "CNPJ",
+    "size": "Company size",
+    "mainActivity": "Main activity",
+    "address": "Address",
+    "founded": "Founded",
+    "status": "Registration status",
+    "backToProjects": "Back to projects"
+  },
+  "provador": {
+    "title": "Virtual Fitting Room",
+    "subtitle": "Try our demo and get outfit suggestions with AI",
+    "avatarPlaceholder": "Your avatar",
+    "iaTitle": "AI Suggestions",
+    "iaDesc": "Describe the style or occasion you're looking for. Our AI suggests pieces from the catalog.",
+    "placeholder": "E.g.: casual summer look, blouse for meeting...",
+    "ask": "Suggest",
+    "searching": "Thinking...",
+    "catalogTitle": "Catalog",
+    "backToPortfolio": "Back to portfolio"
   },
   "blog": {
     "title": "Blog",

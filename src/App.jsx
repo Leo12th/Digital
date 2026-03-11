@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Header, Footer, FloatingWhatsApp, FloatingLanguage, LanguageSync } from './components'
-import { Home, Sobre, Servicos, Portfolio, Projetos, Blog, BlogPost, Contato } from './pages'
+import { Home, Sobre, Servicos, Portfolio, Projetos, Blog, BlogPost, Contato, ConsultaCnpj, Provador } from './pages'
 import './components/Header.css'
 import './components/Footer.css'
 import './components/Hero.css'
@@ -24,8 +24,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/servicos" element={<Servicos />} />
+          <Route path="/provador" element={<Provador />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/projetos" element={<Projetos />} />
+          <Route path="/projetos/consulta-cnpj" element={<ConsultaCnpj />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contato" element={<Contato />} />

@@ -7,32 +7,55 @@ Site institucional da DIGITAL, empresa de soluções integradas para o segmento 
 - **Modo claro/escuro** - Toggle no header
 - **Internacionalização** - Português (padrão), Inglês e Espanhol
 - **Páginas** - Home, Sobre, Serviços, Portfólio, Projetos, Blog, Contato
+- **Consulta CNPJ** - Ferramenta para consultar CNPJ (API cnpja) em `/projetos/consulta-cnpj`
+- **Provador Virtual** - Demo com sugestões de looks via IA em `/provador`
 - **Blog** - Listagem paginada com artigos
 - **Portfólio** - Grid com filtros e paginação
 - **Compartilhamento** - Facebook, Twitter, LinkedIn, WhatsApp
-- **Formulário de contato** - Integrado com Netlify Forms
+- **Formulário de contato** - Envio via API (Nodemailer)
 - **WhatsApp flutuante** - Botão fixo para contato rápido
+- **Bot Baileys** - Chatbot WhatsApp com IA (pasta `whatsapp-bot/`)
 
 ## Desenvolvimento
 
+**Terminal 1 - API:**
 ```bash
 npm install
+npm run server
+```
+
+**Terminal 2 - Frontend:**
+```bash
 npm run dev
 ```
 
-## Build
+O Vite faz proxy de `/api` para o servidor na porta 3000.
+
+## Build e produção
 
 ```bash
 npm run build
+npm run server
 ```
 
-## Deploy na Netlify
+O servidor Express serve o build em `dist/` e as rotas `/api/*`.
 
-1. Conecte o repositório ao Netlify
-2. Build command: `npm run build`
-3. Publish directory: `dist`
-4. Adicione o formulário de contato nas configurações do Netlify (detectado automaticamente)
-5. Conecte seu domínio do Registro.br nas configurações de domínio
+## Variáveis de ambiente
+
+Crie `.env` na raiz (copie de `.env.example`):
+
+- `PORT` - Porta do servidor (padrão 3000)
+- `GEMINI_API_KEY` - Para Provador IA e Bot Baileys (gratuito em https://aistudio.google.com/apikey)
+- `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` - Para formulário de contato
+- `CONTACT_EMAIL` - E-mail de destino do formulário
+
+## Deploy no CyberPanel (VPS)
+
+1. Build: `npm run build`
+2. Upload: `dist/`, `server/`, `package.json`, `whatsapp-bot/`
+3. SSH: `npm install --production && pm2 start server/index.js --name api`
+4. Bot: `cd whatsapp-bot && npm install && pm2 start index.js --name baileys`
+5. Configure reverse proxy no CyberPanel (porta 80 → 3000)
 
 ## Logo
 

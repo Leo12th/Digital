@@ -101,6 +101,14 @@
     "systemsWithAi": {
       "title": "Sistemas com I.A.",
       "desc": "Criamos sistemas inteligentes que utilizam inteligência artificial para análise de dados, previsões e decisões automatizadas no seu negócio."
+    },
+    "virtualFitting": {
+      "title": "Provador Virtual",
+      "desc": "Experimente roupas do nosso catálogo com recomendações de IA. Descreva seu estilo e receba sugestões de looks personalizadas."
+    },
+    "cnpj": {
+      "title": "Consulta CNPJ",
+      "desc": "Consulte dados de empresas por CNPJ. Acesso rápido a informações cadastrais para suas necessidades."
     }
   },
   "portfolio": {
@@ -145,6 +153,11 @@
       "title": "CRM e Gestão de Leads",
       "description": "Sistema de gestão de clientes e leads com automação de vendas.",
       "tags": ["CRM", "Automação"]
+    },
+    "consultaCnpj": {
+      "title": "Consulta de CNPJ",
+      "description": "Ferramenta para consultar CNPJ de representantes e prospects. Verifique situação cadastral, ramo de atuação e mais.",
+      "tags": ["CNPJ", "Marketing"]
     }
   },
   "blog": {
@@ -365,6 +378,36 @@
         ]
       }
     }
+  },
+  "cnpj": {
+    "title": "Consulta de CNPJ",
+    "subtitle": "Consulte rapidamente o CNPJ do seu prospect. Saiba se a empresa está ativa, ramo de atuação e mais.",
+    "label": "CNPJ",
+    "search": "Consultar",
+    "searching": "Consultando...",
+    "invalidLength": "CNPJ deve ter 14 dígitos",
+    "error": "Erro ao consultar. Tente novamente.",
+    "limitReached": "Você já realizou uma consulta nesta sessão. Feche o navegador para consultar novamente.",
+    "fantasyName": "Nome fantasia",
+    "taxId": "CNPJ",
+    "size": "Porte",
+    "mainActivity": "Atividade principal",
+    "address": "Endereço",
+    "founded": "Data de abertura",
+    "status": "Situação cadastral",
+    "backToProjects": "Voltar aos projetos"
+  },
+  "provador": {
+    "title": "Provador Virtual",
+    "subtitle": "Experimente nossa demo e peça sugestões de looks com IA",
+    "avatarPlaceholder": "Seu avatar",
+    "iaTitle": "Sugestões com IA",
+    "iaDesc": "Descreva o estilo ou ocasião que você procura. Nossa IA sugere peças do catálogo.",
+    "placeholder": "Ex: look casual para verão, blusa para reunião...",
+    "ask": "Sugerir",
+    "searching": "Pensando...",
+    "catalogTitle": "Catálogo",
+    "backToPortfolio": "Voltar ao portfólio"
   },
   "contact": {
     "title": "Entre em Contato",

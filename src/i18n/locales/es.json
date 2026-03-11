@@ -101,6 +101,14 @@
     "systemsWithAi": {
       "title": "Sistemas con I.A.",
       "desc": "Creamos sistemas inteligentes que utilizan inteligencia artificial para análisis de datos, predicciones y decisiones automatizadas en su negocio."
+    },
+    "virtualFitting": {
+      "title": "Probador Virtual",
+      "desc": "Prueba prendas de nuestro catálogo con recomendaciones de IA. Describe tu estilo y recibe sugerencias de looks personalizadas."
+    },
+    "cnpj": {
+      "title": "Consulta CNPJ",
+      "desc": "Consulte datos de empresas por CNPJ. Acceso rápido a información registral para sus necesidades."
     }
   },
   "portfolio": {
@@ -163,7 +171,42 @@
         "CRM",
         "Automatización"
       ]
+    },
+    "consultaCnpj": {
+      "title": "Consulta de CNPJ",
+      "description": "Herramienta para consultar CNPJ de representantes y prospectos. Verifique situación cadastral, ramo de actuación y más.",
+      "tags": ["CNPJ", "Marketing"]
     }
+  },
+  "cnpj": {
+    "title": "Consulta de CNPJ",
+    "subtitle": "Consulte rápidamente el CNPJ de su prospecto. Sepa si la empresa está activa, ramo de actuación y más.",
+    "label": "CNPJ",
+    "search": "Consultar",
+    "searching": "Consultando...",
+    "invalidLength": "CNPJ debe tener 14 dígitos",
+    "error": "Error al consultar. Intente nuevamente.",
+    "limitReached": "Ya realizó una consulta en esta sesión. Cierre el navegador para consultar de nuevo.",
+    "fantasyName": "Nombre fantasia",
+    "taxId": "CNPJ",
+    "size": "Porte",
+    "mainActivity": "Actividad principal",
+    "address": "Dirección",
+    "founded": "Fecha de apertura",
+    "status": "Situación cadastral",
+    "backToProjects": "Volver a proyectos"
+  },
+  "provador": {
+    "title": "Probador Virtual",
+    "subtitle": "Pruebe nuestra demo y pida sugerencias de looks con IA",
+    "avatarPlaceholder": "Su avatar",
+    "iaTitle": "Sugerencias con IA",
+    "iaDesc": "Describa el estilo u ocasión que busca. Nuestra IA sugiere prendas del catálogo.",
+    "placeholder": "Ej: look casual para verano, blusa para reunión...",
+    "ask": "Sugerir",
+    "searching": "Pensando...",
+    "catalogTitle": "Catálogo",
+    "backToPortfolio": "Volver al portafolio"
   },
   "blog": {
     "title": "Blog",

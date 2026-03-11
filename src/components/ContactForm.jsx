@@ -9,25 +9,27 @@ export function ContactForm() {
     e.preventDefault()
     const form = e.target
     const formData = new FormData(form)
+    const payload = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      message: formData.get('message'),
+    }
 
-    fetch('/', {
+    fetch('/api/contact', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
     })
-      .then(() => { setStatus('success') })
+      .then((res) => (res.ok ? setStatus('success') : Promise.reject()))
       .catch(() => { setStatus('error') })
   }
 
   return (
     <form
       name="contact"
-      method="POST"
-      data-netlify="true"
       onSubmit={handleSubmit}
       className="contact-form"
     >
-      <input type="hidden" name="form-name" value="contact" />
       <div className="form-group">
         <label htmlFor="name">{t('contact.form.name')}</label>
         <input type="text" id="name" name="name" required />
